@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lesson24HomeWork24_Task3
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
+    
+
+        
 }
+ 

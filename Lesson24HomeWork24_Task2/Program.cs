@@ -10,6 +10,7 @@ namespace Lesson24HomeWork24_Task2
     {
         static void Main(string[] args)
         {
+            Console.SetWindowSize(Console.WindowWidth,40);
         }
     }
 }
