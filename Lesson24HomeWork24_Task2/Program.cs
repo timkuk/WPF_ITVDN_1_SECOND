@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson22HomeWork22_Task1
+namespace Lesson24HomeWork24_Task2
 {
-    public class Program
+    class Program
     {
         static void Main(string[] args)
         {
-
         }
     }
 }
