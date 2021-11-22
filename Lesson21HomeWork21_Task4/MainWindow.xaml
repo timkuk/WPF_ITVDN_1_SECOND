@@ -1,0 +1,18 @@
+﻿<Window x:Class="Lesson21HomeWork21_Task4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson21HomeWork21_Task4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-16,-2">
+        <Button Content="+" Margin="188,225,524,153" Width="104" Click="Button_Sum" RenderTransformOrigin="0.328,0.43" Background="#FF283562"/>
+        <Button Content="-" Margin="317,224,415,0" Click="Button_Minus" VerticalAlignment="Top" Height="58" Background="#FF283562" />
+        <Button Content="*" Margin="423,225,293,161" Height="50" Click="Button_Multiplicate" RenderTransformOrigin="-0.938,1.005" Background="#FF283562"/>
+        <Button Content="/" Margin="546,210,164,142" Height="50" Click="Button_Division" d:LayoutOverrides="VerticalAlignment" Background="#FF283562"/>
+        <TextBox Height="38" Margin="288,64,314,0" TextWrapping="Wrap"  Name ="tb1" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment" Background="Beige"/>
+        <TextBox Height="38" Margin="290,134,312,0" TextWrapping="Wrap"  x:Name ="tb2" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment"  Background="Beige"/>
+        <TextBox Margin="574,81,187,296" TextWrapping="Wrap"  Name ="tb3"  Background="Beige"/>
+    </Grid>
+</Window>
