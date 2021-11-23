@@ -9,40 +9,74 @@ namespace Lesson24HomeWork24_Task3
 {
     class Program
     {
-        //static void Main()
-        //{
-        //    //Console.SetBufferSize(130, 50);
-        //    //Console.SetWindowSize(130, 50);
-        //    //char[] a = new char[4];
-        //    //a[0] = 'a';
-        //    //string str = Convert.ToString(a[0]);
-        //    //int tabs = Console.WindowWidth - (Console.WindowWidth - 1); //длина отступа
-        //    //str = str.PadLeft(str.Length + tabs, '*'); //правое выравнивание
-        //    //Console.WriteLine(str);
-        //}
-        static void RWDeviceState(int ind)
-        {
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine("Поток:" + ind + " Значение:" + i);
-            }
-        }
-
-
+        static object block = new object();
+        static Random random = new Random();
         static void Main(string[] args)
         {
-            List<Thread> ThrArr = new List<Thread>();
-            for (int ind = 0; ind < 10; ind++)
+            Console.CursorVisible = false;
+            Console.Clear();
+            int width = Console.WindowWidth;
+            int height = Console.WindowHeight;
+
+            void ClearColumn(int x)
             {
-                int temp = ind;
-                Thread devthread = new Thread(() => RWDeviceState(temp));
-                devthread.Name = "thr" + ind.ToString();
-                ThrArr.Add(devthread);
-                devthread.Start();
-                
+                for (int y = 0; y < height; y++)
+                {
+                    lock (block) // блокировка консоли
+                    {
+                        Console.SetCursorPosition(x, y);
+                        Console.Write(" ");
+                    }
+                }
             }
-            Console.ReadKey();
+
+            void PrintLine(object x)
+            {
+                while (true)
+                {
+                    int lenght = random.Next(3, 10); // длинна столбца
+                    int speed = random.Next(300, 900); // значение задержки слип
+                    for (int pos = 0; pos < height; pos++)
+                    {
+                        for (int s = 0; s < lenght; s++)
+                        {
+                            if (pos - s == -1)
+                                break;
+                            lock (block) // блокировка консоли
+                            {
+                                Console.SetCursorPosition((int)x, pos - s);
+                                switch (s)
+                                {
+                                    case 0:
+                                        Console.ForegroundColor = ConsoleColor.White;
+                                        break;
+                                    case 1:
+                                        Console.ForegroundColor = ConsoleColor.Cyan;
+                                        break;
+                                    default:
+                                        Console.ForegroundColor = ConsoleColor.DarkGreen;
+                                        break;
+                                }
+                                Console.Write((char)random.Next(65, 91));
+                            }
+                        }
+                        Thread.Sleep(speed);
+                        ClearColumn((int)x);
+                    }
+                }
+            }
+
+            ParameterizedThreadStart writeSnake = new ParameterizedThreadStart(PrintLine);
+            int n = 0;
+
+            while (true)
+            {
+                new Thread(writeSnake).Start(n);
+                n += random.Next(1, 4);
+                if (n >= width - 1)
+                    break;
+            }
         }
     }
 }
- 
+

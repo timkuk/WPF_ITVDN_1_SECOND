@@ -20,9 +20,7 @@ using System.Threading.Tasks;
           public static void Matrix(object column)
           {
               int intColomn = (int)column;
-              Thread.Sleep(1500);
               GenerateRandomChaine(intColomn);
-              Thread.Sleep(1500);
           }
           /// <summary>
           /// Realization method ,he generate random chaine symbols on interaval,and changing console color 
@@ -35,6 +33,7 @@ using System.Threading.Tasks;
               int x = 0;
               int y = 0;
               Random random = new Random();
+              int speed = random.Next(300, 900);
               int lengthChain = random.Next(3, 10);
               do
               {
@@ -76,7 +75,7 @@ using System.Threading.Tasks;
                       }
                       else if (a[j] == a[1])
                       {
-                          Console.ForegroundColor = ConsoleColor.Green;
+                          Console.ForegroundColor = ConsoleColor.Cyan;
                           a[j] = (char)random.Next(0x041, 0x05A);
                       }
                       else
@@ -87,10 +86,10 @@ using System.Threading.Tasks;
                       string symbol = Convert.ToString(a[j]);
                       symbol = symbol.PadLeft(symbol.Length + tabs, '\0');
                       Console.WriteLine($"\n {symbol}");
-                      Thread.Sleep(520);
+                      Thread.Sleep(speed);
                   }
                   Console.ForegroundColor = ConsoleColor.Gray;
-                  Thread.Sleep(1500);
+                  Thread.Sleep(speed);
                   Console.Clear();
 
                 if (y >= Console.BufferHeight)
@@ -119,7 +118,7 @@ using System.Threading.Tasks;
           static void Main(string[] args)
           {
               List<ParameterizedThreadStart> listParametrize = new List<ParameterizedThreadStart>();
-              for (int i = 0; i < 50; i++)
+              for (int i = 0; i < 1; i++)
               {
                 int temp = i;
                 ParameterizedThreadStart neo = new ParameterizedThreadStart(Matrix);
@@ -129,7 +128,7 @@ using System.Threading.Tasks;
                 Thread.Sleep(5700);
             }
             List<ParameterizedThreadStart> listParametrize2 = new List<ParameterizedThreadStart>();
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < 1; i++)
             {
                 int temp = i;
                 ParameterizedThreadStart neo2 = new ParameterizedThreadStart(Matrix);

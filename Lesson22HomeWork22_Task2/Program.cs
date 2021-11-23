@@ -70,17 +70,17 @@ namespace Lesson22HomeWork22_Task2
                 if (a[j] == a[0])
                 {
                     Console.ForegroundColor = ConsoleColor.White;
-                    a[j] = (char)random.Next(0x021, 0x07E);
+                    a[j] = (char)random.Next(0x041, 0x05A);
                 }
                 else if (a[j] == a[1])
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
-                    a[j] = (char)random.Next(0x021, 0x07E);
+                    a[j] = (char)random.Next(0x041, 0x05A);
                 }
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
-                    a[j] = (char)random.Next(0x021, 0x07A);
+                    a[j] = (char)random.Next(0x041, 0x05A);
                 }
                 string symbol = Convert.ToString(a[j]);
                 symbol = symbol.PadLeft(symbol.Length + tabs, '\0');
