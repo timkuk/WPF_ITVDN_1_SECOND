@@ -3,51 +3,58 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//Требуется описать структуру с именем Worker, содержащую следующие поля: 
+//• фамилия и инициалы работника; 
+//• название занимаемой должности; 
+//• год поступления на работу. 
+//Написать программу, выполняющую следующие действия: 
+//• ввод с клавиатуры данных в массив, состоящий из пяти элементов типа Worker (записи должны быть упорядочены по алфавиту); 
+//• если значение года введено не в соответствующем формате выдает исключение;
+//• вывод на экран фамилии работника, стаж работы которого превышает введенное значение.
 namespace Lesson24HomeWork24_Task2
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            //Инициализируем переменные, содержащие строки вывода
-            string topLeftText = "Top left corner";
-            string topRightText = "Top right corner";
-            string centerText = "Center";
-            string bottomLeftText = "Bottom left corner";
-            string bottomRightText = "Bottom right corner";
+            int countWorkers = 5;
+            string[] workerArray = new string[countWorkers];
+            int i = 0;
+            while (i < countWorkers)
+            {
+                Worker[] workers = new Worker[5];
+                Console.WriteLine("Input information about worker");
+                Console.WriteLine("Input Sername worker:");
+                string sername = Console.ReadLine();
+                Console.WriteLine("Input Inithials worker:");
+                string inithials = Console.ReadLine();
+                Console.WriteLine("Input name position worker:");
+                string position = Console.ReadLine();
+                Console.WriteLine("Input year when worker jet a job position worker:");
+                int year = int.Parse(Console.ReadLine());
+                Worker worker = new Worker(sername, inithials, position, year);
+                Worker worker1 = new Worker(sername, inithials, position, year);
+                Worker worker2 = new Worker(sername, inithials, position, year);
+                Worker worker3 = new Worker(sername, inithials, position, year);
+                Worker worker4 = new Worker(sername, inithials, position, year);
+                workers[0] = worker;
+                workers[1] = worker1;
+                workers[2] = worker2;
+                workers[3] = worker3;
+                workers[4] = worker4;
 
-            //Очищаем консоль
-            Console.Clear();
-
-            //По умолчанию курсор находится в левом верхнем углу [0, 0], поэтому для вывода первой строки менять положение курсора не требуется
-            Console.Write(topLeftText);
-
-            //Рассчитываем положение для строки в верхнем левом углу
-            int topRightX = Console.WindowWidth - topRightText.Length;
-            //Указываем новые координаты курсора
-            Console.SetCursorPosition(topRightX, 0);
-            //Выводим текст
-            Console.Write(topRightText);
-
-            //Повторяем действия для левого нижнего угла
-            int bottomY = Console.WindowHeight - 1;
-            Console.SetCursorPosition(0, bottomY);
-            Console.Write(bottomLeftText);
-
-            //Для правого нижнего угла
-            int bottomRightX = Console.WindowWidth - bottomRightText.Length;
-            Console.SetCursorPosition(bottomRightX, bottomY);
-            Console.Write(bottomRightText);
-
-            // Выводим строку в центре экрана
-            int centerX = (Console.WindowWidth / 2) - (centerText.Length / 2);
-            int centerY = (Console.WindowHeight / 2) - 1;
-            Console.SetCursorPosition(centerX, centerY);
-            Console.Write(centerText);
-
-            //Ждём нажатия клавиши перед выходом
-            Console.ReadKey();
+                try
+                {
+                    if (year > 2021 || year < 1960)
+                    {
+                        throw new Exception("Invalid Year Information!");
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
         }
     }
 }

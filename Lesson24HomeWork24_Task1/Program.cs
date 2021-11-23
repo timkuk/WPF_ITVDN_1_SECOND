@@ -3,50 +3,45 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//В теле класса создайте четыре метода для арифметических действий: Add – сложение, Sub – вычитание, 
+//Mul – умножение, Div – деление.
+//Метод деления должен делать проверку деления на ноль, если проверка не проходит, сгенерировать исключение. 
+//Пользователь вводит значения, над которыми хочет произвести операцию и выбрать саму операцию.
+//При возникновении ошибок должны выбрасываться исключения.
 namespace Lesson24HomeWork24_Task1
 {
     class Program
     {
         public static void Main()
         {
-            int x = 0;
-            int y = 0;
-            Console.Write('@');
-            do
+            Console.WriteLine("Input type Operation 1-Adding 2-Substring 3-Multiplicate 4-Division");
+            int menu = int.Parse(Console.ReadLine());
+            Calculator calculator = new Calculator(12, 0);
+            try
             {
-                switch (Console.ReadKey().Key)
+                switch (menu)
                 {
-                    case ConsoleKey.UpArrow:
-                        y--;
+                    case 1:
+                        calculator.Add(calculator.X, calculator.Y);
                         break;
-                    case ConsoleKey.DownArrow:
-                        y++;
+                    case 2:
+                        calculator.Sub(calculator.X, calculator.Y);
                         break;
-                    case ConsoleKey.RightArrow:
-                        x++;
+                    case 3:
+                        calculator.Mul(calculator.X, calculator.Y);
                         break;
-                    case ConsoleKey.LeftArrow:
-                        x--;
+                    case 4:
+                        calculator.Del(calculator.X, calculator.Y);
                         break;
-                    case ConsoleKey.Escape:
-                        return;
+                    default:
+                        throw new Exception("Menu Exeption!");
                 }
-
-                if (x < 0)
-                    x = 0;
-                else if (x >= Console.BufferWidth)
-                    x = Console.BufferWidth - 1;
-                if (y < 0)
-                    y = 0;
-                else if (y >= Console.BufferHeight)
-                    y = Console.BufferHeight - 1;
-
-                Console.Clear();
-                Console.SetCursorPosition(x, y);
-                Console.Write('@');
-
-            } while (true);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Exeption!Input true point of menu!");
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }
