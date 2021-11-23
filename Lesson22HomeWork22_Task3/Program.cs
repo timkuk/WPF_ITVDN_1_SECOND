@@ -34,11 +34,11 @@ using System.Threading.Tasks;
               int y = 0;
               Random random = new Random();
               int speed = random.Next(300, 900);
-              int lengthChain = random.Next(3, 10);
+              int lengthChain = random.Next(3, 12);
               do
               {
                   char[] a = new char[lengthChain];
-                  int tabs = Console.WindowWidth - (Console.WindowWidth - count); //длина отступа
+                  int tabs = Console.WindowWidth - (Console.WindowWidth - count); 
                   for (int j = 0; j < lengthChain - 1; j++)
                   {
                       if (x <= 0)
@@ -55,13 +55,7 @@ using System.Threading.Tasks;
                       }
                       else if (y == Console.BufferHeight)
                       {
-                          int k = 0;
-                          while (true)
-                          {
-                              y = k;
-                              k++;
-                              break;
-                          }
+                          y = 0;
                       }
                       else if (y >= Console.BufferHeight)
                       {
@@ -85,6 +79,7 @@ using System.Threading.Tasks;
                       }
                       string symbol = Convert.ToString(a[j]);
                       symbol = symbol.PadLeft(symbol.Length + tabs, '\0');
+                      Thread.Sleep(speed);
                       Console.WriteLine($"\n {symbol}");
                       Thread.Sleep(speed);
                   }
@@ -118,9 +113,9 @@ using System.Threading.Tasks;
           static void Main(string[] args)
           {
               List<ParameterizedThreadStart> listParametrize = new List<ParameterizedThreadStart>();
-              for (int i = 0; i < 1; i++)
+              for (int i = 10; i < 130; i++)
               {
-                int temp = i;
+                int temp1 = i;
                 ParameterizedThreadStart neo = new ParameterizedThreadStart(Matrix);
                 Thread thread = new Thread(neo);
                 listParametrize.Add(neo);
@@ -128,15 +123,15 @@ using System.Threading.Tasks;
                 Thread.Sleep(5700);
             }
             List<ParameterizedThreadStart> listParametrize2 = new List<ParameterizedThreadStart>();
-            for (int i = 0; i < 1; i++)
+            for (int i = 10; i < 130; i++)
             {
-                int temp = i;
+                int temp2 = i;
                 ParameterizedThreadStart neo2 = new ParameterizedThreadStart(Matrix);
                 Thread thread2 = new Thread(neo2);
                 listParametrize2.Add(neo2);
                 thread2.Start(i);
             }
-      }
+        }
   }
 }
   

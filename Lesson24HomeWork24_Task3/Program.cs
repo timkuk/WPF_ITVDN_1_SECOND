@@ -30,7 +30,7 @@ namespace Lesson24HomeWork24_Task3
                 }
             }
 
-            void PrintLine(object x)
+             void PrintLine(object x)
             {
                 while (true)
                 {
@@ -65,7 +65,6 @@ namespace Lesson24HomeWork24_Task3
                     }
                 }
             }
-
             ParameterizedThreadStart writeSnake = new ParameterizedThreadStart(PrintLine);
             int n = 0;
 
