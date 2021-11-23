@@ -37,11 +37,13 @@ namespace Lesson22HomeWork22_Task2
         //}
         static void Matrix()
         {
-            //int count = 1150;
+            Console.SetBufferSize(130, 50);
+            Console.SetWindowSize(130, 50);
             int x = 0;
             int y = 0;
+            int count = 0;
             Random random = new Random();
-            int lengthChain = random.Next(3, 15);
+            int lengthChain = random.Next(5, 10);
             do
             {
                 char[] a = new char[lengthChain];
@@ -51,10 +53,18 @@ namespace Lesson22HomeWork22_Task2
                     // x = 0;
                     //else if (x >= Console.BufferWidth)
                     //    x = Console.BufferWidth - 1;
-                    if (y < 0)
+                    if (y <= 0)
+                    {
                         y = 0;
+                    }
                     else if (y >= Console.BufferHeight)
+                    {
                         y = Console.BufferHeight - 1;
+                    }
+                    //else if(y >= Console.BufferHeight)
+                    //{
+                    //    y = 0;
+                    //}
                     y++;
                     if (a[j] == a[0])
                     {
@@ -69,7 +79,7 @@ namespace Lesson22HomeWork22_Task2
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.DarkGreen;
-                        a[j] = (char)random.Next(0x021, 0x07E);
+                        a[j] = (char)random.Next(0x021, 0x07A);
                     }
                     Console.Write($"\n {a[j]} ");
                 }
@@ -77,16 +87,15 @@ namespace Lesson22HomeWork22_Task2
                 Console.WriteLine();
                 Thread.Sleep(1000);
                 Console.Clear();
-                int k = 0;
-                if (k==1)
+                
+                if (y >= Console.BufferHeight)
                 {
-                    Console.SetCursorPosition(0, 0);
+                    Console.SetCursorPosition(0,0);
                 }
                 else
                 {
-                    Console.SetCursorPosition(x, y); 
+                    Console.SetCursorPosition(x, y);
                 }
-                k++;
             }
             while (true);
         }
