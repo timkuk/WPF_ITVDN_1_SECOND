@@ -12,97 +12,120 @@ namespace Lesson22HomeWork22_Task2
 {
     public class Program
     {
-        //public static char[] GenerateRandomChaine(int lengthChain)
-        //{
-        //    Random random = new Random();
-        //    char[] a = new char[lengthChain];
-        //    for (int j = 0; j < lengthChain - 1; j++)
-        //    {
-        //        if (a[j] == a[0])
-        //        {
-        //            Console.ForegroundColor = ConsoleColor.White;
-        //            a[j] = (char)random.Next(0x021, 0x07E);
-        //        }
-        //        else if (a[j] == a[1])
-        //        {
-        //            Console.ForegroundColor = ConsoleColor.Green;
-        //            a[j] = (char)random.Next(0x021, 0x07E);
-        //        }
-        //        else
-        //        {
-        //            Console.ForegroundColor = ConsoleColor.DarkGreen;
-        //            a[j] = (char)random.Next(0x021, 0x07E);
-        //        }
-        //        return a;
-        //}
-        static void Matrix()
+        /// <summary>
+        /// Realization Class Thrading who communicate with Method GenerateRandomChaine()
+        /// </summary>
+        /// <param name="column"></param>
+        public static void Matrix(object column)
         {
-            Console.SetBufferSize(130, 50);
-            Console.SetWindowSize(130, 50);
-            int x = 0;
-            int y = 0;
-            int count = 0;
-            Random random = new Random();
-            int lengthChain = random.Next(5, 10);
-            do
+            int intColomn = (int)column;
+            Thread.Sleep(1500);
+            GenerateRandomChaine(intColomn);
+        }
+        /// <summary>
+        /// Realization method ,he generate random chaine symbols on interaval,and changing console color 
+        /// </summary>
+        /// <param name="count"></param>
+        public static void GenerateRandomChaine(int count)
+        {
+        Console.SetBufferSize(130, 50);
+        Console.SetWindowSize(130, 50);
+        int x = 0;
+        int y = 0;
+        Random random = new Random();
+        int lengthChain = random.Next(3, 20);
+        do
+        {
+            char[] a = new char[lengthChain];
+            int tabs = Console.WindowWidth - (Console.WindowWidth - count); //длина отступа
+            for (int j = 0; j < lengthChain - 1; j++)
             {
-                char[] a = new char[lengthChain];
-                for (int j = 0; j < lengthChain - 1; j++)
+                if (x <= 0)
                 {
-                    //if (x < 0)
-                    // x = 0;
-                    //else if (x >= Console.BufferWidth)
-                    //    x = Console.BufferWidth - 1;
-                    if (y <= 0)
-                    {
-                        y = 0;
-                    }
-                    else if (y >= Console.BufferHeight)
-                    {
-                        y = Console.BufferHeight - 1;
-                    }
-                    //else if(y >= Console.BufferHeight)
-                    //{
-                    //    y = 0;
-                    //}
-                    y++;
-                    if (a[j] == a[0])
-                    {
-                        Console.ForegroundColor = ConsoleColor.White;
-                        a[j] = (char)random.Next(0x021, 0x07E);
-                    }
-                    else if (a[j] == a[1])
-                    {
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        a[j] = (char)random.Next(0x021, 0x07E);
-                    }
-                    else
-                    {
-                        Console.ForegroundColor = ConsoleColor.DarkGreen;
-                        a[j] = (char)random.Next(0x021, 0x07A);
-                    }
-                    Console.Write($"\n {a[j]} ");
+                    x = Console.WindowWidth - Console.WindowWidth + 120;
                 }
-                Console.ForegroundColor = ConsoleColor.Gray;
-                Console.WriteLine();
-                Thread.Sleep(1000);
-                Console.Clear();
-                
-                if (y >= Console.BufferHeight)
+                else if (x <= Console.BufferWidth)
                 {
-                    Console.SetCursorPosition(0,0);
+                    x = 0;
+                }
+                if (y < 0)
+                {
+                    y = 0;
+                }
+                else if(y == Console.BufferHeight)
+                {
+                    int k = 0;
+                    while (true)
+                    {
+                        y = k;
+                        k++;
+                        break;
+                    }
+                }
+                else if (y >= Console.BufferHeight)
+                {
+                    y = Console.BufferHeight - 1;
+                }
+                y++;
+                if (a[j] == a[0])
+                {
+                    Console.ForegroundColor = ConsoleColor.White;
+                    a[j] = (char)random.Next(0x021, 0x07E);
+                }
+                else if (a[j] == a[1])
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    a[j] = (char)random.Next(0x021, 0x07E);
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkGreen;
+                    a[j] = (char)random.Next(0x021, 0x07A);
+                }
+                string symbol = Convert.ToString(a[j]);
+                symbol = symbol.PadLeft(symbol.Length + tabs, '\0');
+                Console.WriteLine($"\n {symbol}");
+                Thread.Sleep(1620);
+            }
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Thread.Sleep(5700);
+            Console.Clear();
+
+            if (y >= Console.BufferHeight)
+            {
+                int security = y / 50 + 1;
+                if (security % 2 == 0)
+                {
+                    Console.CursorTop = 0;
                 }
                 else
                 {
                     Console.SetCursorPosition(x, y);
                 }
             }
-            while (true);
+            else 
+            {
+                Console.SetCursorPosition(x, y);
+            }
         }
+            while (true);
+    }
+         /// <summary>
+         /// Realization Method Main with Logic Thrading
+         /// </summary>
+         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Thread thread = new Thread(new ThreadStart(Matrix));
-            thread.Start();
+            List<ParameterizedThreadStart> listParametrize = new List<ParameterizedThreadStart>();
+            for (int i = 0; i<500; i++)
+            {
+                int temp = i;
+                ParameterizedThreadStart neo = new ParameterizedThreadStart(Matrix);
+                Thread thread = new Thread(neo);
+                listParametrize.Add(neo);
+                thread.Start(i);
+            }
         }
     }
 }
+
