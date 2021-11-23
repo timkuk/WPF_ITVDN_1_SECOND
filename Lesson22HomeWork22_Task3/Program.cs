@@ -2,27 +2,144 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+//Создайте программу, которая будет выводить на экран цепочки падающих символов. Длина каждой цепочки задается случайно
+//Первый символ цепочки – белый, второй символ – светло-зеленый,остальные символы темно-зеленые 
+//Во время падения цепочки, на каждом шаге, все символы меняют свое значение
+//Дойдя до конца, цепочка исчезает и сверху формируется новая цепочка
+//Расширьте задание 2, так, чтобы в одном столбце одновременно могло быть две цепочки символов
+  namespace Lesson22HomeWork22_Task3
+  {
+      public class Program
+      {
+          /// <summary>
+          /// Realization Class Thrading who communicate with Method GenerateRandomChaine()
+          /// </summary>
+          /// <param name="column"></param>
+          public static void Matrix(object column)
+          {
+              int intColomn = (int)column;
+              Thread.Sleep(1500);
+              GenerateRandomChaine(intColomn);
+              Thread.Sleep(1500);
+          }
+          /// <summary>
+          /// Realization method ,he generate random chaine symbols on interaval,and changing console color 
+          /// </summary>
+          /// <param name="count"></param>
+          public static void GenerateRandomChaine(int count)
+          {
+              Console.SetBufferSize(130, 50);
+              Console.SetWindowSize(130, 50);
+              int x = 0;
+              int y = 0;
+              Random random = new Random();
+              int lengthChain = random.Next(3, 10);
+              do
+              {
+                  char[] a = new char[lengthChain];
+                  int tabs = Console.WindowWidth - (Console.WindowWidth - count); //длина отступа
+                  for (int j = 0; j < lengthChain - 1; j++)
+                  {
+                      if (x <= 0)
+                      {
+                          x = Console.WindowWidth - Console.WindowWidth + 120;
+                      }
+                      else if (x <= Console.BufferWidth)
+                      {
+                          x = 0;
+                      }
+                      if (y < 0)
+                      {
+                          y = 0;
+                      }
+                      else if (y == Console.BufferHeight)
+                      {
+                          int k = 0;
+                          while (true)
+                          {
+                              y = k;
+                              k++;
+                              break;
+                          }
+                      }
+                      else if (y >= Console.BufferHeight)
+                      {
+                          y = Console.BufferHeight - 1;
+                      }
+                      y++;
+                      if (a[j] == a[0])
+                      {
+                          Console.ForegroundColor = ConsoleColor.White;
+                          a[j] = (char)random.Next(0x041, 0x05A);
+                      }
+                      else if (a[j] == a[1])
+                      {
+                          Console.ForegroundColor = ConsoleColor.Green;
+                          a[j] = (char)random.Next(0x041, 0x05A);
+                      }
+                      else
+                      {
+                          Console.ForegroundColor = ConsoleColor.DarkGreen;
+                          a[j] = (char)random.Next(0x041, 0x05A);
+                      }
+                      string symbol = Convert.ToString(a[j]);
+                      symbol = symbol.PadLeft(symbol.Length + tabs, '\0');
+                      Console.WriteLine($"\n {symbol}");
+                      Thread.Sleep(520);
+                  }
+                  Console.ForegroundColor = ConsoleColor.Gray;
+                  Thread.Sleep(1500);
+                  Console.Clear();
 
-namespace Lesson22HomeWork22_Task3
-{
-    public class Program
-    {
-        static void Main(string[] args)
-        {
-            Random rand = new Random();
-            int n = 5;
-            char[,] a = new char[5, 5];
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < n; j++)
-                {
-                    a[i, j] = (char)rand.Next(0x021, 0x07E);
-                    Console.Write(a[i, j] + " ");
-                }
-                Console.WriteLine();
+                if (y >= Console.BufferHeight)
+                  {
+                      int security = y / 50 + 1;
+                      if (security % 2 == 0)
+                      {
+                          Console.CursorTop = 0;
+                      }
+                      else
+                      {
+                          Console.SetCursorPosition(x, y);
+                      }
+                  }
+                  else
+                  {
+                      Console.SetCursorPosition(x, y);
+                  }
+              }
+              while (true);
+          }
+          /// <summary>
+          /// Realization Method Main with Logic Thrading
+          /// </summary>
+          /// <param name="args"></param>
+          static void Main(string[] args)
+          {
+              List<ParameterizedThreadStart> listParametrize = new List<ParameterizedThreadStart>();
+              for (int i = 0; i < 50; i++)
+              {
+                int temp = i;
+                ParameterizedThreadStart neo = new ParameterizedThreadStart(Matrix);
+                Thread thread = new Thread(neo);
+                listParametrize.Add(neo);
+                thread.Start(i);
+                Thread.Sleep(5700);
             }
-            Console.ReadKey(true);
-        }
-    }
+            List<ParameterizedThreadStart> listParametrize2 = new List<ParameterizedThreadStart>();
+            for (int i = 0; i < 50; i++)
+            {
+                int temp = i;
+                ParameterizedThreadStart neo2 = new ParameterizedThreadStart(Matrix);
+                Thread thread2 = new Thread(neo2);
+                listParametrize2.Add(neo2);
+                thread2.Start(i);
+            }
+      }
+  }
 }
+  
+
+
