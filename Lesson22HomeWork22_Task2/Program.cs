@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 //Создайте программу, которая будет выводить на экран цепочки падающих символов. Длина каждой цепочки задается случайно
 //Первый символ цепочки – белый, второй символ – светло-зеленый,остальные символы темно-зеленые 
 //Во время падения цепочки, на каждом шаге, все символы меняют свое значение
@@ -16,7 +12,7 @@ namespace Lesson22HomeWork22_Task2
         /// Realization Class Thrading who communicate with Method GenerateRandomChaine()
         /// </summary>
         /// <param name="column"></param>
-        public static void Matrix(object column)
+        public  void Matrix(object column)
         {
             int intColomn = (int)column;
             Thread.Sleep(1500);
@@ -116,14 +112,9 @@ namespace Lesson22HomeWork22_Task2
          /// <param name="args"></param>
         static void Main(string[] args)
         {
-            List<ParameterizedThreadStart> listParametrize = new List<ParameterizedThreadStart>();
-            for (int i = 0; i<500; i++)
+            for (int i = 0; i<5; i++)
             {
-                int temp = i;
-                ParameterizedThreadStart neo = new ParameterizedThreadStart(Matrix);
-                Thread thread = new Thread(neo);
-                listParametrize.Add(neo);
-                thread.Start(i);
+                new Thread(new Program().Matrix).Start(i);
             }
         }
     }

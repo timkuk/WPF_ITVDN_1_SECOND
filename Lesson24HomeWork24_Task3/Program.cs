@@ -15,75 +15,95 @@ using System.Threading.Tasks;
 //клавиатуры (если такого магазина нет, вывести исключение).
 namespace Lesson24HomeWork24_Task3
 {
-    class Program
+    /// <summary>
+    /// Realization class Program
+    /// </summary>
+    public class Program
     {
-        static object block = new object();
-        static Random random = new Random();
+        static int countWorkers = 2;
+        public static Price[] priceArray = new Price[countWorkers];
         static void Main(string[] args)
         {
-            Console.CursorVisible = false;
-            Console.Clear();
-            int width = Console.WindowWidth;
-            int height = Console.WindowHeight;
-
-            void ClearColumn(int x)
+            try
             {
-                for (int y = 0; y < height; y++)
+                for (int s = 0; s < countWorkers; s++)
                 {
-                    lock (block) // блокировка консоли
+                    Console.WriteLine("Input name goods:");
+                    priceArray[s].NameGoods = Console.ReadLine();
+                    Console.WriteLine("Input name shop:");
+                    priceArray[s].NameShop = Console.ReadLine();
+                    Console.WriteLine("Input price in dollars:");
+                    priceArray[s].PriceInDollars = int.Parse(Console.ReadLine());
+                }
+                for (int k = 0; k < countWorkers; k++)
+                {
+                    new Price(priceArray[k].NameGoods, priceArray[k].NameShop, priceArray[k].PriceInDollars);
+                }
+
+                Console.WriteLine("Input name shop for input information about goods on this shop :");
+                string shopName = Console.ReadLine();
+                int h = 0;
+                while (h < countWorkers)
+                {
+                    if (priceArray[h].NameShop == shopName)
                     {
-                        Console.SetCursorPosition(x, y);
-                        Console.Write(" ");
+                        Console.WriteLine($"Good in this Shop -> {priceArray[h].NameGoods}");
+                        break;
+                    }
+                    else if (countWorkers - 1 == h)
+                    {
+                        throw new Exception("NOT FOUNT SHOP ON THE DATA BASE!Input ones again!");
+                    }
+                    else
+                    {
+                        h++;
                     }
                 }
             }
-
-             void PrintLine(object x)
+            //Realization block catch for handler exeption
+            catch (Exception e)
             {
-                while (true)
-                {
-                    int lenght = random.Next(3, 10); // длинна столбца
-                    int speed = random.Next(300, 900); // значение задержки слип
-                    for (int pos = 0; pos < height; pos++)
-                    {
-                        for (int s = 0; s < lenght; s++)
-                        {
-                            if (pos - s == -1)
-                                break;
-                            lock (block) // блокировка консоли
-                            {
-                                Console.SetCursorPosition((int)x, pos - s);
-                                switch (s)
-                                {
-                                    case 0:
-                                        Console.ForegroundColor = ConsoleColor.White;
-                                        break;
-                                    case 1:
-                                        Console.ForegroundColor = ConsoleColor.Cyan;
-                                        break;
-                                    default:
-                                        Console.ForegroundColor = ConsoleColor.DarkGreen;
-                                        break;
-                                }
-                                Console.Write((char)random.Next(65, 91));
-                            }
-                        }
-                        Thread.Sleep(speed);
-                        ClearColumn((int)x);
-                    }
-                }
+                Console.WriteLine(e.Message);
+                Method();
             }
-            ParameterizedThreadStart writeSnake = new ParameterizedThreadStart(PrintLine);
-            int n = 0;
-
-            while (true)
+            OutPutArray();
+        }
+        /// <summary>
+        /// Realization Method who Outputing sorted information about shops on Console
+        /// </summary>
+        public static void OutPutArray()
+        {
+            Console.WriteLine("Sorted information about shops: ");
+            Array.Sort(priceArray, new PriceCpmpare());
+            for (int i = 0; i < countWorkers; i++)
             {
-                new Thread(writeSnake).Start(n);
-                n += random.Next(1, 4);
-                if (n >= width - 1)
+                Console.WriteLine($"Information about  {priceArray[i].NameShop} SHOP -> NameGoods :{priceArray[i].NameGoods}  -> Price In Dollars: {priceArray[i].PriceInDollars} ");
+            }
+        }
+        /// <summary>
+        /// Realization dublicate method deal if user input unvaliable name shop console don't close,and program working further
+        /// </summary>
+        public static void Method()
+        {
+            Console.WriteLine("Input name shop for input information about goods on this shop :");
+            string shopName = Console.ReadLine();
+            int h = 0;
+            while (h < countWorkers)
+            {
+                if (priceArray[h].NameShop == shopName)
+                {
+                    Console.WriteLine($"Good in this Shop -> {priceArray[h].NameGoods}");
                     break;
+                }
+                else if (countWorkers - 1 == h)
+                {
+                    throw new Exception("NOT FOUNT SHOP ON THE DATA BASE!Input ones again!");
+                }
+                else
+                {
+                    h++;
+                }
             }
         }
     }
 }
-

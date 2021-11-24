@@ -17,7 +17,7 @@ using System.Threading.Tasks;
           /// Realization Class Thrading who communicate with Method GenerateRandomChaine()
           /// </summary>
           /// <param name="column"></param>
-          public static void Matrix(object column)
+          public  void Matrix(object column)
           {
               int intColomn = (int)column;
               GenerateRandomChaine(intColomn);
@@ -106,30 +106,20 @@ using System.Threading.Tasks;
               }
               while (true);
           }
-          /// <summary>
-          /// Realization Method Main with Logic Thrading
-          /// </summary>
-          /// <param name="args"></param>
-          static void Main(string[] args)
-          {
-              List<ParameterizedThreadStart> listParametrize = new List<ParameterizedThreadStart>();
-              for (int i = 0; i < 130; i++)
-              {
-                int temp1 = i;
-                ParameterizedThreadStart neo = new ParameterizedThreadStart(Matrix);
-                Thread thread = new Thread(neo);
-                listParametrize.Add(neo);
-                thread.Start(i);
-                Thread.Sleep(5700);
-            }
-            List<ParameterizedThreadStart> listParametrize2 = new List<ParameterizedThreadStart>();
+        /// <summary>
+        /// Realization Method Main with Logic Thrading
+        /// </summary>
+        /// <param name="args"></param>
+        static void Main(string[] args)
+        {
             for (int i = 0; i < 130; i++)
             {
-                int temp2 = i;
-                ParameterizedThreadStart neo2 = new ParameterizedThreadStart(Matrix);
-                Thread thread2 = new Thread(neo2);
-                listParametrize2.Add(neo2);
-                thread2.Start(i);
+                new Thread(new Program().Matrix).Start(i);
+            }
+            Thread.Sleep(1000);
+            for (int i = 0; i < 130; i++)
+            {
+                new Thread(new Program().Matrix).Start(i);
             }
         }
   }

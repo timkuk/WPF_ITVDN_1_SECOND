@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EBDBAA4C-3EE1-49A5-A3D2-BFE7A9822094}</ProjectGuid>
+    <ProjectGuid>{B483C056-5FA0-4BD8-850D-F9B785FE6D4A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson24HomeWork24_Task3</RootNamespace>
-    <AssemblyName>Lesson24HomeWork24_Task3</AssemblyName>
+    <RootNamespace>Lesson22HomeWork22_Task4</RootNamespace>
+    <AssemblyName>Lesson22HomeWork22_Task4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Price.cs" />
-    <Compile Include="PriceCpmpare.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
