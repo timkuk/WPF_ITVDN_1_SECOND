@@ -22,33 +22,51 @@ namespace Lesson24HomeWork24_Task2
             int i = 0;
             while (i < countWorkers)
             {
-                Worker[] workers = new Worker[5];
-                Console.WriteLine("Input information about worker");
-                Console.WriteLine("Input Sername worker:");
-                string sername = Console.ReadLine();
-                Console.WriteLine("Input Inithials worker:");
-                string inithials = Console.ReadLine();
-                Console.WriteLine("Input name position worker:");
-                string position = Console.ReadLine();
-                Console.WriteLine("Input year when worker jet a job position worker:");
-                int year = int.Parse(Console.ReadLine());
-                Worker worker = new Worker(sername, inithials, position, year);
-                Worker worker1 = new Worker(sername, inithials, position, year);
-                Worker worker2 = new Worker(sername, inithials, position, year);
-                Worker worker3 = new Worker(sername, inithials, position, year);
-                Worker worker4 = new Worker(sername, inithials, position, year);
-                workers[0] = worker;
-                workers[1] = worker1;
-                workers[2] = worker2;
-                workers[3] = worker3;
-                workers[4] = worker4;
-
                 try
                 {
+                    Worker[] workers = new Worker[5];
+                    Console.WriteLine("Input information about worker");
+                    Console.WriteLine("Input Sername worker:");
+                    string sername = Console.ReadLine();
+                    string sername1 = Console.ReadLine();
+                    string sername2 = Console.ReadLine();
+                    string sername3 = Console.ReadLine();
+                    string sername4 = Console.ReadLine();
+                    Console.WriteLine("Input Inithials worker:");
+                    string inithials = Console.ReadLine();
+                    string inithials1 = Console.ReadLine();
+                    string inithials2 = Console.ReadLine();
+                    string inithials3 = Console.ReadLine();
+                    string inithials4 = Console.ReadLine();
+                    Console.WriteLine("Input name position worker:");
+                    string position = Console.ReadLine();
+                    string position1 = Console.ReadLine();
+                    string position2 = Console.ReadLine();
+                    string position3 = Console.ReadLine();
+                    string position4 = Console.ReadLine();
+                    Console.WriteLine("Input year when worker jet a job position worker:");
+                    int year = int.Parse(Console.ReadLine());
                     if (year > 2021 || year < 1960)
                     {
                         throw new Exception("Invalid Year Information!");
                     }
+                    int year1 = int.Parse(Console.ReadLine());
+                    int year2 = int.Parse(Console.ReadLine());
+                    int year3 = int.Parse(Console.ReadLine());
+                    int year4 = int.Parse(Console.ReadLine());
+                    Console.WriteLine();
+                    Worker worker = new Worker(sername, inithials, position, year);
+                    Worker worker1 = new Worker(sername1, inithials1, position1, year1);
+                    Worker worker2 = new Worker(sername2, inithials2, position2, year2);
+                    Worker worker3 = new Worker(sername3, inithials3, position3, year3);
+                    Worker worker4 = new Worker(sername4, inithials4, position4, year4);
+                    workers[0] = worker;
+                    workers[1] = worker1;
+                    workers[2] = worker2;
+                    workers[3] = worker3;
+                    workers[4] = worker4;
+                    wor
+                   
                 }
                 catch (Exception e)
                 {
