@@ -113,7 +113,7 @@ using System.Threading.Tasks;
           static void Main(string[] args)
           {
               List<ParameterizedThreadStart> listParametrize = new List<ParameterizedThreadStart>();
-              for (int i = 10; i < 130; i++)
+              for (int i = 0; i < 130; i++)
               {
                 int temp1 = i;
                 ParameterizedThreadStart neo = new ParameterizedThreadStart(Matrix);
@@ -123,7 +123,7 @@ using System.Threading.Tasks;
                 Thread.Sleep(5700);
             }
             List<ParameterizedThreadStart> listParametrize2 = new List<ParameterizedThreadStart>();
-            for (int i = 10; i < 130; i++)
+            for (int i = 0; i < 130; i++)
             {
                 int temp2 = i;
                 ParameterizedThreadStart neo2 = new ParameterizedThreadStart(Matrix);
