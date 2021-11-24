@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lesson24HomeWork24_Task2
 {
-    class StudentComparer : IComparer<Worker>
+    public class StudentComparer : IComparer<Worker>
     {
         public int Compare(Worker a, Worker b)
         {

@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 //• вывод на экран фамилии работника, стаж работы которого превышает введенное значение.
 namespace Lesson24HomeWork24_Task2
 {
-    public struct Worker : IComparable<Worker>
+    public struct Worker 
     {
         public string Sername { get; set; }
         public string Inithials { get; set; }
@@ -25,10 +25,6 @@ namespace Lesson24HomeWork24_Task2
             Inithials = inithials;
             WorkPositionName = workPositionName;
             YearWhenStartWorking = yearWhenStartWorking;        
-        }
-        public int CompareTo(Worker other)
-        {
-            return String.Compare(this.Sername, other.Sername);
         }
     }
 }
