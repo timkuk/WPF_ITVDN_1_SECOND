@@ -71,7 +71,7 @@ namespace Lesson25HomeWork25_Task4
         /// <param name="second"></param>
         /// <param name="first"></param>
         /// <returns></returns>
-        public static Information operator -(Information second , Information first)
+        public static Information operator -(Information second, Information first)
         {
             int convertMounthToDays = 0;
             int countMonth = 0;
@@ -90,31 +90,31 @@ namespace Lesson25HomeWork25_Task4
                     convertMounthToDays = countMonth * 30;
                 }
             }
+            else
+            {
+                if (first.mounth > second.mounth)
+                {
+                    int normalMounth = 12 - first.mounth;
+                    countMonth = (30 - second.mounth) + (normalMounth * 30);
+                    convertMounthToDays = countMonth;
+                }
                 else
                 {
-                    if (first.mounth > second.mounth)
-                    {
-                        int normalMounth = 12 - first.mounth;
-                        countMonth = (30-second.mounth) + (normalMounth*30);
-                        convertMounthToDays = countMonth;
-                    }
-                    else
-                    {
-                        countMonth = second.mounth - first.mounth;
-                        convertMounthToDays = countMonth * 30;
-                    }
+                    countMonth = second.mounth - first.mounth;
+                    convertMounthToDays = countMonth * 30;
                 }
+            }
             int countYears = Math.Abs(second.year - first.year);
             if (countYears == 1)
             {
                 countDaysAfterCalculate = convertMounthToDays;
             }
-                else
-                {
-                    int convertYearsToDays = countYears * 30 * 12;
-                    countDaysAfterCalculate = convertYearsToDays + convertMounthToDays;
-                }
-            return new Information(Math.Abs((second.day - first.day)+ countDaysAfterCalculate), Math.Abs(second.mounth - first.mounth), Math.Abs(second.year - first.year));
+            else
+            {
+                int convertYearsToDays = countYears * 30 * 12;
+                countDaysAfterCalculate = convertYearsToDays + convertMounthToDays;
+            }
+            return new Information(Math.Abs((second.day - first.day) + countDaysAfterCalculate), Math.Abs(second.mounth - first.mounth), Math.Abs(second.year - first.year));
         }
         /// <summary>
         /// Realization Method Reloding operators +

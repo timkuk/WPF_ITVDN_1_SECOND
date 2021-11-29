@@ -9,7 +9,7 @@ namespace Lesson25HomeWork25_Task4
         static void Main(string[] args)
         {
             Information dateOne = new Information(29, 11, 2021);
-            Information dateSecond = new Information(1, 1, 2022);
+            Information dateSecond = new Information(31, 01, 2021);
             //subtraction second date to first date
             Information resultDate = dateSecond - dateOne;
             Console.WriteLine(resultDate);
