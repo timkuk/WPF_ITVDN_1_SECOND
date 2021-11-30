@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 //Создайте класс ArrayList. Реализуйте в простейшем приближении возможность использования его 
 //экземпляра аналогично экземпляру класса ArrayList из пространства имен System.Collections.
 namespace Lesson20HomeWork20_Task4

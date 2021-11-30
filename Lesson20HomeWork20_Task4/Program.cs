@@ -7,7 +7,7 @@ namespace Lesson20HomeWork20_Task4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите количесвто элементов для словаря");
+            Console.WriteLine("Введите количесвто элементов для vfccbdf");
             int length = int.Parse(Console.ReadLine());
             ArrayList arrayList = new ArrayList(length);
             arrayList.Add(12);

@@ -5,16 +5,21 @@ using System.Collections;
 //Для формирования коллекции используйте оператор yield
 namespace Lesson23HomeWork23_Task1
 {
-    public class Program
+    public class UserCollection
     {
-        static void Main()
+        /// <summary>
+        /// Realization method creating custom collection using operatio yield
+        /// </summary>
+        /// <param name="arrayInt"></param>
+        /// <returns></returns>
+        public  IEnumerable MethodCollectonGenerator(int[] arrayInt)
         {
-            UserCollection user = new UserCollection();
-            int[] intArray = new int[] { 1, 2, 3, 4, 100, 120,113};
-            Console.WriteLine("Sorted collection:");
-            foreach (var item in user.MethodCollectonGenerator(intArray))
+            foreach (var item in arrayInt)
             {
-                Console.WriteLine(item);
+                if (item % 2 == 0)
+                {
+                    yield return item;
+                }
             }
         }
     }
