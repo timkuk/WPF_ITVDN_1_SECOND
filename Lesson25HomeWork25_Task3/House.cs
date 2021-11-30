@@ -4,7 +4,7 @@
 //Реализуйте простой способ проверки
 namespace Lesson25HomeWork25_Task3
 {
-    public class House
+    public class House 
     {
         private int firstField;
         private int secondField;
@@ -29,14 +29,6 @@ namespace Lesson25HomeWork25_Task3
             {
                 secondField = value;
             }
-        }
-        public void Clone()
-        {
-
-        }
-        public void DeepClone()
-        {
-
         }
     }
 }
