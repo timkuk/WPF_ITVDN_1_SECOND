@@ -9,41 +9,36 @@ namespace Lesson23HomeWork23_Task2
 {
     public class MyList<T>
     {
-        public int[] myList;
-        int count = 0;
-        public int Count { get => count; }
+        public Element[] elementsArray = null;
         public MyList(int length)
         {
-            myList = new int[length];
+            elementsArray = new Element[length];
         }
+        int count = 0;
+        public int Count { get => count; }
         public string this[int index]
         {
             get
             {
-                if (index >= 0 && index < myList.Length)
-                    return $"{myList[index]}";
+                if (index >= 0 && index < elementsArray.Length)
+                    return $"{elementsArray[index]}";
                 else
                     return "Попытка обращения за пределы массива.";
             }
         }
-        public int[] ResultAdditing(int length, int[] array)
+        public Element[] Add(int length,int[] array)
         {
-            int[] newArray = new int[length-1];
-            for (int k = 0; k < length-1; k++)
+            for (int k = 0; k < length; k++)
             {
-                newArray[k] = AddInCollection(array[k]);
-            }
-            return newArray;
-        }
-        public int AddInCollection(int argumentArray)
-        {
-            if (count < myList.Length)
-            {
-                myList[count] = argumentArray;
+                elementsArray[k] = AddInCollection(array[k]);
                 count++;
-                return myList[count];
             }
-            return myList[count];
+            return elementsArray;
+        }
+        public Element AddInCollection(int argumentArray)
+        {
+            Element elementsArray = new Element(argumentArray);
+            return elementsArray;
         }
     }
 }

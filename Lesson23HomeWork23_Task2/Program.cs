@@ -11,16 +11,15 @@ namespace Lesson23HomeWork23_Task2
     {
         static void Main(string[] args)
         {
-            
             Console.WriteLine("Введите количесвто элементов для словаря");
             int length = int.Parse(Console.ReadLine());
             MyList<int> myList = new MyList<int>(length);
             int[] intArray = new int[] { 1, 2, 3, 4, 100, 120, 113 };
-            int[] array = myList.ResultAdditing(length,intArray);
+            myList.Add(length, intArray);
             Console.WriteLine(myList[0]);
-            Console.WriteLine(myList[1]);
+            Console.WriteLine(myList[3]);
             Console.WriteLine(myList.Count);
-            foreach (var item in array)
+            foreach (var item in myList.Add(length, intArray))
             {
                 Console.WriteLine(item);
             }
