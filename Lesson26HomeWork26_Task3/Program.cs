@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+//Используя динамические и анонимные типы данных, создайте Англо-Русский словарь на 10 слов и выведите на экран его содержание.
 namespace Lesson26HomeWork26_Task3
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

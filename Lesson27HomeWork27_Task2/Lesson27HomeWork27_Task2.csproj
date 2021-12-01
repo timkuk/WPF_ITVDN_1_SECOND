@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Lesson23HomeWork23_Task3\Lesson23HomeWork23_Task3.csproj">
+      <Project>{cb537dda-a348-4ae5-b4c6-ae3b8a31e9ec}</Project>
+      <Name>Lesson23HomeWork23_Task3</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lesson27HomeWork27_Task1\Lesson27HomeWork27_Task1.csproj">
       <Project>{67e88e98-d836-4b5f-9bf2-de780764908b}</Project>
       <Name>Lesson27HomeWork27_Task1</Name>

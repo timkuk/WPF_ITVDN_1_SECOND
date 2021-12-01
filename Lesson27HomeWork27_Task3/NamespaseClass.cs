@@ -6,7 +6,7 @@ using Lesson27HomeWork27_Task3;
 namespace Lesson27HomeWork27_Task3
 {
     /// <summary>
-    /// Вызываю метод NameSpaceMethod из проекта 1 задания
+    /// Вызываю метод NameSpaceMethod из проекта 1 задания,в результате наследования удалось вызват метод из другой сборки
     /// </summary>
     public class NamespaseClass 
     {
