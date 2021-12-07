@@ -7,6 +7,7 @@ using System.Collections;
 //Реализуйте возможность перебора элементов коллекции в цикле foreach
 namespace Lesson23HomeWork23_Task2
 {
+    //public class MyList<T>:ICollection, IList
     public class MyList<T>
     {
         public Element[] elementsArray = null;
