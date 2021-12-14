@@ -1,83 +1,36 @@
-﻿//using System;
-//using System.Collections.Generic;
-////Используя динамические и анонимные типы данных, создайте Англо-Русский словарь на 10 слов и выведите на экран его содержание.
-//namespace Lesson26HomeWork26_Task3
-//{
-//    public class Program
-//    {
-//        static void Main(string[] args)
-//        {
-//            var anonymy = new { value = "Яблоко" };
-//            Dictionary<dynamic,> dictionary = new Dictionary<dynamic,a>;
-//        }
-//    }
-//}
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-//Представьте, что вы пишите приложение для Автостанции и вам необходимо создать простую 
-//коллекцию автомобилей со следующими данными: марка автомобиля, модель, год выпуска, цвет. А 
-//также вторую коллекцию с моделью автомобиля, именем покупателя и его номером телефона. 
-//Используя простейший LINQ запрос, выведите на экран информацию о покупателе одного из 
-//автомобилей и полную характеристику приобретенной им модели
-namespace Lesson26HomeWork26_Task2
+//Используя динамические и анонимные типы данных, создайте Англо-Русский словарь на 10 слов и выведите на экран его содержание
+namespace Lesson26HomeWork26_Task3
 {
-    public class CarStation
+    public class Program
     {
-        public string Model { get; set; }
-        public string Mark { get; set; }
-        public int YearProduction { get; set; }
-        public string Color { get; set; }
-
-    }
-    public class ClientInfo
-    {
-        public string Model { get; set; }
-        public string NameBuyer { get; set; }
-        public string PhoneNumber { get; set; }
-    }
-    class Program
-    {
+        static IDictionary<TKey, TValue> NewDictionary<TKey, TValue>(TKey key, TValue value)
+        {
+            return new Dictionary<TKey, TValue>();
+        }
+        static IDictionary<TKey, TValue> NewDictionary1<TKey, TValue>(dynamic key, dynamic value)
+        {
+            return new Dictionary<TKey, TValue>();
+        }
         static void Main(string[] args)
         {
-            var carCollectionOne = new List<CarStation>
+            for (int i = 0; i < 9; i++)
             {
-                new CarStation(){Model = "Picnic", Mark = "Toyota", YearProduction = 1998, Color = "Pink"},
-                new CarStation(){Model = "Civic", Mark = "Honda", YearProduction = 2008, Color = "Black"},
-                new CarStation(){Model = "Accord", Mark = "Honda", YearProduction = 2016, Color = "Black"},
-                new CarStation(){Model = "CRV", Mark = "Honda", YearProduction = 2006, Color = "Grey"}
-            };
-
-            var carCollectionTwo = new List<ClientInfo>
+                var dict = NewDictionary(new { ID = 1 }, new { Column = "Dollar", Localized = "Доллар" });
+                Console.WriteLine(NewDictionary(new { ID = 1 }, new { Column = "Dollar", Localized = "Доллар" }).ToString());
+            }
+            for (int i = 0; i < 9; i++)
             {
-                new ClientInfo(){Model = "Picnic", NameBuyer = "Tim Kuk", PhoneNumber = "+3752767677"},
-                new ClientInfo(){Model = "Civic", NameBuyer = "Alex Flud", PhoneNumber = "+3752767677"},
-                new ClientInfo(){Model = "Accord", NameBuyer = "Tim Kur", PhoneNumber = "+3752767677"},
-                new ClientInfo(){Model = "CRV", NameBuyer = "Kon Kurochka", PhoneNumber = "+3752767677"},
-            };
-
-            var query = from emp in carCollectionOne
-                        join n in carCollectionTwo
-                        on emp.Model equals n.Model
-                        orderby n.NameBuyer descending
-                        select new
-                        {
-                            Model = emp.Model,
-                            Mark = emp.Mark,
-                            //YearProduction = emp.YearProduction,
-                            //Color = emp.Color,
-                            //NameBuyer = n.NameBuyer,
-                            //PhoneNumber = n.PhoneNumber
-                        };
-
-            foreach (var person in query)
-            {
-                Console.WriteLine($"NameMack car {person.Mark} Model car {person.Model}");
-                //Console.WriteLine($"Name buyer {person.NameBuyer} Mack car {person.Mark} Model car {person.Model} Year when produce {person.YearProduction} Color {person.Color} Phone number {person.PhoneNumber}");
-                break;
+                dynamic first = "Apple";
+                dynamic second = "Яблоко";
+                Console.WriteLine(NewDictionary1<dynamic, dynamic>(first, second).ToString());
             }
         }
-
+        public override string ToString()
+        {
+            return $"Англо Русский словарь";
+        }
     }
 }
-
