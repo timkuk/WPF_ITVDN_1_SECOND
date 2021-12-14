@@ -7,7 +7,8 @@ namespace Lesson26HomeWork26_Task3
     {
         static void Main(string[] args)
         {
-
+            var anonymy = new { value = "Яблоко" };
+            Dictionary<dynamic,> dictionary = new Dictionary<dynamic,a>;
         }
     }
 }
