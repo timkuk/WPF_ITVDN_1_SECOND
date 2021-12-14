@@ -1,13 +1,16 @@
 ﻿<Window x:Class="Lesson30HomeWork30_Task5.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:wpfTool="clr-namespace:Xceed.Wpf.Toolkit;assembly=Xceed.Wpf.Toolkit"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lesson30HomeWork30_Task5"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="START"  Margin="330,0,342.6,136" VerticalAlignment="Bottom" Height="51" Click="Button_Click"/>
+        <Label Name="LabelColor" Content="Label"  Margin="325,135,346.6,0" VerticalAlignment="Top" Height="54"/>
+        <xctk:ColorPicker x:Name="colorPicker" VerticalAlignment="Top" />
 
     </Grid>
 </Window>

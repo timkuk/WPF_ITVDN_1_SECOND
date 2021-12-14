@@ -9,7 +9,7 @@ using System.Windows;
 namespace Lesson30HomeWork30_Task4
 {
     /// <summary>
-    /// Interaction logic for App.xaml
+    /// Логика взаимодействия для App.xaml
     /// </summary>
     public partial class App : Application
     {
