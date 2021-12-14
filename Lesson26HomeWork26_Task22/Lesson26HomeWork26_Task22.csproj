@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{687DA64C-BFDC-4F4B-9D96-9E12CACF9063}</ProjectGuid>
+    <ProjectGuid>{E867637D-64BB-4F50-9ABB-15E52BA7817A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson26HomeWork26_Task2</RootNamespace>
-    <AssemblyName>Lesson26HomeWork26_Task2</AssemblyName>
+    <RootNamespace>Lesson26HomeWork26_Task22</RootNamespace>
+    <AssemblyName>Lesson26HomeWork26_Task22</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

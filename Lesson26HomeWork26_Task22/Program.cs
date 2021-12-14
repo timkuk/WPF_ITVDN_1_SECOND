@@ -6,7 +6,7 @@ using System.Linq;
 //также вторую коллекцию с моделью автомобиля, именем покупателя и его номером телефона. 
 //Используя простейший LINQ запрос, выведите на экран информацию о покупателе одного из 
 //автомобилей и полную характеристику приобретенной им модели
-namespace Lesson26HomeWork26_Task2
+namespace Lesson26HomeWork26_Task22
 {
     public class CarStation
     {
@@ -22,7 +22,7 @@ namespace Lesson26HomeWork26_Task2
         public string NameBuyer { get; set; }
         public string PhoneNumber { get; set; }
     }
-    class  Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -45,24 +45,24 @@ namespace Lesson26HomeWork26_Task2
             var query = from emp in carCollectionOne
                         join n in carCollectionTwo
                         on emp.Model equals n.Model
-                        orderby n.NameBuyer descending 
+                        orderby n.NameBuyer descending
                         select new
                         {
                             Model = emp.Model,
                             Mark = emp.Mark,
-                            //YearProduction = emp.YearProduction,
-                            //Color = emp.Color,
-                            //NameBuyer = n.NameBuyer,
-                            //PhoneNumber = n.PhoneNumber
+                            YearProduction = emp.YearProduction,
+                            Color = emp.Color,
+                            NameBuyer = n.NameBuyer,
+                            PhoneNumber = n.PhoneNumber
                         };
 
             foreach (var person in query)
             {
-                Console.WriteLine($"NameMack car {person.Mark} Model car {person.Model}");
-                //Console.WriteLine($"Name buyer {person.NameBuyer} Mack car {person.Mark} Model car {person.Model} Year when produce {person.YearProduction} Color {person.Color} Phone number {person.PhoneNumber}");
+                Console.WriteLine($"Name buyer {person.NameBuyer} Mack car {person.Mark} Model car {person.Model} Year when produce {person.YearProduction} Color {person.Color} Phone number {person.PhoneNumber}");
                 break;
-            }   
-        }   
+            }
+        }
 
     }
 }
+
