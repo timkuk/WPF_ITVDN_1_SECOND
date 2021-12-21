@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BF1C4841-EDB1-4FB2-AABE-0D3D010FAD3D}</ProjectGuid>
+    <ProjectGuid>{8475EA9D-0C28-4BAB-A127-7A704EE91405}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson26HomeWork26_Task3</RootNamespace>
-    <AssemblyName>Lesson26HomeWork26_Task3</AssemblyName>
+    <RootNamespace>Lesson28HomeWork28_Task3</RootNamespace>
+    <AssemblyName>Lesson28HomeWork28_Task3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dictionary.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Retiree.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="UserCollection.cs" />
+    <Compile Include="Worker.cs" />
+    <Compile Include="Сitizen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
