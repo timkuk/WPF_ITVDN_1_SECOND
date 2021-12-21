@@ -2,48 +2,47 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-//Создайте абстрактный класс Гражданин. Создайте классы Студент, Пенсионер, Рабочий 
-//унаследованные от Гражданина. Создайте непараметризированную коллекцию со следующим функционалом: 
-//1.Добавление элемента в коллекцию. 
-//1) Можно добавлять только Гражданина. 
-//2) При добавлении, элемент добавляется в конец коллекции. Если Пенсионер, – то в 
-//начало с учетом ранее стоящих Пенсионеров. Возвращается номер в очереди. 
-//3) При добавлении одного и того же человека (проверка на равенство по номеру 
-//паспорта, необходимо переопределить метод Equals и/или операторы равенства для 
-//сравнения объектов по номеру паспорта) элемент не добавляется, выдается сообщение. 
-//2. Удаление 
-//1) Удаление – с начала коллекции. 
-//2) Возможно удаление с передачей экземпляра Гражданина
-//3.Метод Contains возвращает true/false при налчичии/отсутствии элемента в коллекции и 
-//номер в очереди. 
-//4. Метод ReturnLast возвращsает последнего чеолвека в очереди и его номер в очереди. 
-//5. Метод Clear очищает коллекцию. 
-//6. С коллекцией можно работать опертаором foreach
+//1) Можно добавлять только Гражданина +
+//2) При добавлении, элемент добавляется в конец коллекции. Если Пенсионер,то в начало с учетом ранее стоящих Пенсионеров.Возвращается номер в очереди 
+//3) При добавлении одного и того же человека (проверка на равенство по номеру паспорта, необходимо переопределить метод Equals
+//(и/или) операторы равенства для сравнения объектов по номеру паспорта) элемент не добавляется, выдается сообщение 
+//4) Удаление – с начала коллекции (реализовать логику)
+//5) Возможно удаление с передачей экземпляра Гражданина
+//6)Метод Contains возвращает true/false при налчичии/отсутствии элемента в коллекции и номер в очереди
+//7) Метод ReturnLast возвращsает последнего человека в очереди и его номер в очереди
+//8) Метод Clear очищает коллекцию +
 namespace Lesson28HomeWork28_Task3
 {
     public class UserCollection<T> : ICollection<T>
     {
         T[] elements = new T[0];
-
-        // Добавляет элемент в интерфейс ICollection<T>.
         public void Add(T item)
         {
-            if (item == )
+            if (true)
             {
-
+                if (typeof(Retiree) == item.GetType())
+                {
+                    var newArray = new T[elements.Length + 1];
+                    elements.CopyTo(newArray, 1);
+                    newArray[0] = item;
+                    elements = newArray;
+                }
+                else
+                {
+                    var newArray = new T[elements.Length + 1];
+                    elements.CopyTo(newArray, 0);
+                    newArray[newArray.Length - 1] = item;
+                    elements = newArray;
+                }
             }
             else
             {
-                var newArray = new T[elements.Length + 1]; // Создание нового массива (на 1 больше старого).
-                elements.CopyTo(newArray, 0);              // Копирование старого массива в новый.
-                newArray[newArray.Length - 1] = item;      // Помещение нового значения в конец массива.
-                elements = newArray;
-            }                   
+                throw new NotImplementedException("Такой гражданин уже существует");
+            }
         }
-
-        // Удаляет все элементы из коллекции ICollection<T>.
+        /// <summary>
+        /// Удаление всех элементов коллекции
+        /// </summary>
         public void Clear()
         {
             elements = new T[0];
@@ -57,10 +56,6 @@ namespace Lesson28HomeWork28_Task3
                 if (element.Equals(item))
                     return true;
             }
-
-            return false;
-
-            ////Or we can use LINQ :)
             return elements.Contains(item);
         }
 
@@ -98,6 +93,15 @@ namespace Lesson28HomeWork28_Task3
         IEnumerator IEnumerable.GetEnumerator()
         {
             return (this as IEnumerable<T>).GetEnumerator();
+        }
+        //public override bool Equals(Сitizen obj)
+        //{
+        //    if(obj.PasportInformation ==)
+        //    return base.Equals(obj);
+        //}
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
         }
     }
 }
