@@ -18,7 +18,11 @@ namespace Lesson28HomeWork28_Task3
         T[] elements = new T[0];
         public void Add(T item)
         {
-            if (true)
+            if (elements.Equals(item))
+            {
+                throw new NotImplementedException("Такой гражданин уже существует");
+            }
+            else
             {
                 if (typeof(Retiree) == item.GetType())
                 {
@@ -34,10 +38,6 @@ namespace Lesson28HomeWork28_Task3
                     newArray[newArray.Length - 1] = item;
                     elements = newArray;
                 }
-            }
-            else
-            {
-                throw new NotImplementedException("Такой гражданин уже существует");
             }
         }
         /// <summary>
@@ -94,10 +94,11 @@ namespace Lesson28HomeWork28_Task3
         {
             return (this as IEnumerable<T>).GetEnumerator();
         }
-        //public override bool Equals(Сitizen obj)
+        //public override bool Equals(Сitizen сitizen)
         //{
-        //    if(obj.PasportInformation ==)
-        //    return base.Equals(obj);
+        //    if (object.ReferenceEquals(сitizen.PasportInformation, this))
+        //        return true;
+        //    return false;
         //}
         public override int GetHashCode()
         {
