@@ -22,9 +22,10 @@ namespace Lesson28HomeWork28_Task3
                 Console.WriteLine($"Номер в очереди {count}");
                 count++;
             }
-            //collection.Remove(new Student("Tim Kurchenok", "HB1111111"));
+            collection.Remove(new Worker("Tim Kurchenok", "HB29239193"));
             Console.WriteLine(collection.Contains(new Retiree("Yan Lazeba", "HB363353535")));
             //collection.Clear();
+            collection.ReturnLast();
         }
     }
 }
