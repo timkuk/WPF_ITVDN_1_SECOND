@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 //выбирать все ссылки на другие страницы, номера телефонов, почтовые адреса и сохраняла полученный результат в файл
 namespace Lesson31HomeWork31_Task2
 {
+    /// <summary>
+    /// Реализация логики парсинга с реального сайта
+    /// </summary>
     public class Program
     {
         static readonly HttpClient client = new HttpClient();
@@ -47,17 +50,7 @@ namespace Lesson31HomeWork31_Task2
                 }
                 writer.Close();
                 Console.ReadKey();
-                var splitText = testParsing.Split(' ');
-                foreach(var splitword in splitText)
-                {
-                    if ((numberRegex.IsMatch(splitword)) || (emailRegex.IsMatch(splitword)) || linksRegex.IsMatch(splitword))
-                    {
-                        //var file = new FileInfo(@"E:\ITVDN\03_C# Essential\WPF_ITVDN_1-master\Lesson31HomeWork31_Task2\Результат парсинга.txt");
-                        //StreamWriter writer = file.CreateText();
-                        //writer.Write(splitword);
-                        //writer.Close();
-                    }
-                }
+                //Логика парсинга реального сайта из интернета
                 HttpResponseMessage response = await client.GetAsync("https://mebel.by/allproducts.php?firms=8/");
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();
