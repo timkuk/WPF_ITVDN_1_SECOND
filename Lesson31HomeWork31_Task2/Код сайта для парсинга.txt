@@ -1,0 +1,520 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2144396-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2144396-3');
+</script>
+<base href="https://mebel.by/">
+<link rel="canonical" href="https://mebel.by/allproducts.php?firms=8" />
+<link rel="shortcut icon" href="/mebel_by.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple/apple-touch-icon-57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple/apple-touch-icon-72.png ">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple/apple-touch-icon-114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple/apple-touch-icon-144.png">
+
+<meta charset="UTF-8">
+<title>Каталог мебели Бобруйскмебель, ЗАО с ценами и фото.</title>
+<meta name="viewport" content="width = device-width, height = 3967, user-scalable = no">
+<meta name="copyright" content="Copyright © SoftAnt">
+<meta name="description" content="Белорусский мебельный сайт. Иллюстрированный каталог продукции белорусских производителей мебели, информация по магазинам мебели.PDF каталоги.">
+<meta name="keywords" content=",,, Мягкая мебель, Детская мебель, Кабинеты, библиотеки Прихожие Ванные комнаты Столы и стулья Шкафы, витрины, буфеты Шкафы-купе Тумбы, комоды Двери, зеркала Стеллажи, Гостиная Корпусная мебель Столы журнальные. PDF каталоги.">
+<meta name="robots" content="all">
+<meta name="resource-type" content="document">
+<meta name="rating" content="general">
+<meta name="charset" content="UTF-8">
+<link rel=stylesheet href="../css/bosspage12.css">
+<link rel=stylesheet href="../css/allproducts44.css">
+<link rel=stylesheet href="../css/sheet1.css">
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(12090322, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script>
+<!-- /Yandex.Metrika counter -->
+<link rel=stylesheet href="../new-CSS/newstyle.css">
+<style type="text/css"><!--.r_5 { -webkit-border-radius: 5px; -moz-border-radius: 5px;  border-radius: 5px; -webkit-background-clip:padding-box; background-clip:padding-box; }
+--></style><script type="text/javascript">//<![CDATA[
+
+function name_max_min(object,min,max)
+{
+	var p_name=object.value.toString();
+	var len = p_name.length;
+	if(len != 0)
+	{
+	if (len < min) {alert("Длина имени меньше минимальной - "+min+" !");setTimeout( function() { object.focus() } ,10);setTimeout( function() { object.select() } ,10);}
+    if (len > max ){alert("Длина имени больше максимальной - "+max+" !");setTimeout( function() { object.focus() } ,10);setTimeout( function() { object.select() } ,10);}
+	}
+}
+
+
+function check_email(object)
+{
+	p_email=object.value.toString();
+	if(p_email!='')
+	{
+		t=p_email.indexOf('@');
+		if((p_email.indexOf('.')==-1) || (t==-1) || (t < 1) ||
+		(t > p_email.length - 5) || (p_email.charAt(t - 1)=='.') || (p_email.charAt(t + 1)=='.'))
+		{
+			alert("Некорректный E-mail адрес! (формат E-mail адреса: name@site.ext");setTimeout( function() { object.focus() } ,10);setTimeout( function() { object.select() } ,10);
+			}
+		}
+}
+
+
+function max_min(object,min,max)
+{
+	if (object.value < min) {alert("Значение меньше минимального - "+min+" !");object.value=min;setTimeout( function() { object.focus() } ,10);setTimeout( function() { object.select() } ,10);}
+    if (object.value > max ){alert("Значение больше максимального - "+max+" !");object.value=max;setTimeout( function() { object.focus() } ,10);setTimeout( function() { object.select() } ,10);}
+}
+
+//]]></script></head>
+<body onload="ilatlong(citys);">
+<form action="//mebel.by/mailto.php" method=post name="Product">
+<div id="PageDiv">
+	<div id="body"><div id="firmsInfo" style="display:block;"><div id="firm-name">
+				<p class="orange16leftB2 f-fp f-lp"> Бобруйскмебель, ЗАО</p>			</div>
+			<div id="left-block"><div id="logo-conteiner"><div id="firmLogo">
+						<img src="/ImagesDB2/bobruisk/logo.jpg" alt="firmLogo" usemap="firmLogoPHP1" style="max-width:230px;max-height:230px;" style="float:left" id="firmLogoPHP1">					</div>
+				</div>
+				<div id="wtb-block"><div id="name-wtb"><h2 class="style2 f-fp f-lp"><span class="style11">Где купить</span></h2>
+					</div>
+					<div id="rb-block"><div id="name-rb"><h3 class="f-fp f-lp">Республика Беларусь</h3>
+						</div>
+						<div id="region-block"><div id="regions">
+								<p class="tMenu16LeftUnder f-fp f-lp"><a href="/magaziny-mebeli/bobrujskmebel/bobrujsk">Могилевская обл. </a></p><p class="tMenu16LeftUnder f-fp f-lp"><a href="/magaziny-mebeli/bobrujskmebel/vitebsk">Витебская обл. </a></p><p class="tMenu16LeftUnder f-fp f-lp"><a href="/magaziny-mebeli/bobrujskmebel/grodno">Гродненская обл. </a></p><p class="tMenu16LeftUnder f-fp f-lp"><a href="/magaziny-mebeli/bobrujskmebel/zhlobin">Гомельская обл. </a></p><p class="tMenu16LeftUnder f-fp f-lp"><a href="/magaziny-mebeli/bobrujskmebel/minsk">Минская обл. </a></p><p class="tMenu16LeftUnder f-fp f-lp"><a href="/magaziny-mebeli/bobrujskmebel/pruzhany">Брестская обл. </a></p>							</div>
+						</div>
+					</div>
+					<div id="mir-block"><div id="name-other"><h3 class="f-fp f-lp">Другие регионы</h3>
+						</div>
+						<div id="other-region-block"><div id="other-regions">
+															</div>
+						</div>
+					</div>
+				</div>
+				<div id="region1">
+					<p class="tMenu16LeftUnder f-fp f-lp"><a href="#" id="Icity">   </a></p>				</div>
+			</div>
+			<div id="right-block">
+				<div id="info-block"><div id="city-block"><div id="cityName"><p class="ccc12left f-fp f-lp">Город:</p></div><div id="Name"><p class="tMenu14Left f-fp f-lp">Бобруйск</p></div></div><div id="address-block"><div id="addressName"><p class="ccc12left f-fp f-lp">Адрес:</p></div><div id="Address"><p class="tMenu14Left f-fp f-lp">ул. Новошоссейная, 2</p></div></div><div id="phone-block"><div id="phoneName"><p class="ccc12left f-fp f-lp">Телефон:</p></div><div id="Phone"><p class="tMenu14Left f-fp f-lp">+375 225 74-71-42, 
++375 225 73-78-13, 
++375 225 73-78-72,
++375 225 73-78-80</p></div></div><div id="web-block"><div id="webName"><p class="ccc12left f-fp f-lp">Сайт:</p></div><div id="Web"><p class="tMenu14Left f-fp f-lp"><span class="orang-color"><a href="" target="_blank" rel="nofollow"></a></span></p></div></div><div id="email-block"><div id="emailName"><p class="ccc12left f-fp f-lp">E-mail:</p></div><div id="Email"><p class="tMenu14Left f-fp f-lp"><a href="mailto:" target="_blank" rel="nofollow"><span class="TEXT-color" style="text-decoration:underline">market@bobruiskmebel.by</span></a></p></div></div><div id="desc-block"><div id="descName"><p class="ccc12left f-fp f-lp">Инфо:</p></div><div id="Desc"><p class="tMenu14Left f-fp f-lp">Закрытое акционерное общество «Бобруйскмебель» - предприятие с 90-летней историей и сложившимися традициями, с многолетним опытом работы в мебельной отрасли и динамично развивающимся производством.<br />
+Отличительной особенностью нашего предприятия является то, что вся мебель традиционно изготавливается из экологически чистых, натуральных материалов - массива ценных парод древесины, сосны, натурального шпона различных пород деревьев. Применяемые отделочные материалы подчеркивают красоту и изысканность текстуры натуральной древесины.<br />
+За годы своего развития предприятие превратилось в современное технологичное производство с новыми технологиями, которые позволяют выпускать изделия высокого художественного и качественного уровня.<br />
+Характерной особенностью нашей мебели является практичность, надежность и соответствие современным требованиям по функциональным особенностям и эстетике.<br />
+ <br />
+<br />
+</p></div></div></div>			</div>
+		</div>
+		<div id="firms-Info-edit">
+					</div>
+		<div id="magazin-edit">
+					</div>
+		<div id="catalog-h1">
+			<h1 class="style2 f-fp f-lp"><span class="style10">Каталог мебели с ценами и фото. Производитель Бобруйскмебель, ЗАО.</span></h1>		</div>
+		<div id="catalog-pdf">
+			<h2 class="style2 f-fp f-lp"><span class="style11">Pdf-каталоги производителя мебели Бобруйскмебель, ЗАО.</span></h2>		</div>
+		<p class="f-fp"><input id="pdf-add" class="dim-add" type=button name="pdf-add" value="ДОБАВИТЬ КАТАЛОГ" style="display:none" title="Создает новый pdf-каталог фирмы" onclick="document.Product.action='';document.Product.pdf_add.value=1;document.Product.submit();">&nbsp;</p>
+		<div id="block-catalog" style="display:block">
+			<script>console.group('ЕСТЬ');console.log('"\u0415\u0441\u0442\u044c \u0442\u0430\u043a\u043e\u0439 \u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440\u0438\u0439"');console.groupEnd();</script><script>console.group('ДА');console.log('"\u041e\u0442\u043a\u0440\u044b\u043b\u0438 \u0434\u0438\u0440\u0435\u043a\u0442\u043e\u0440\u0438\u0439"');console.groupEnd();</script><div id="catalog-conteiner" class="box"><div id="pdf-block"><div id="pdf-foto" class="in-box"><img src="./mebel_medias/katalog-mebeli/bobrujskmebel/PDF/preview/catalog_gobelenov.jpg" alt="preview на pdf-каталог Бобруйскмебель, ЗАО" style="max-width:100%;max-height:100%;margin:auto;top:0px;right:0px;left:0px;bottom:0px;position:absolute;border: 1px solid lightgray;" style="float:left" id="pdf-fotoPHP1"></div><div id="pdf-link"><a href="./mebel_medias/katalog-mebeli/bobrujskmebel/PDF/catalog_gobelenov.pdf" target="_blank"><img src="../Resources/magaziny-link11.gif" width=362 height=255 alt="ссылка на pdf-каталог Бобруйскмебель, ЗАО" style="float:left; width:100%; height:100%" id="pdf-linkPHP1"></a></div></div></div><div id="catalog-conteiner" class="box"><div id="pdf-block"><div id="pdf-foto" class="in-box"><img src="./mebel_medias/katalog-mebeli/bobrujskmebel/PDF/preview/bobruiskmeb_2017.jpg" alt="preview на pdf-каталог Бобруйскмебель, ЗАО" style="max-width:100%;max-height:100%;margin:auto;top:0px;right:0px;left:0px;bottom:0px;position:absolute;border: 1px solid lightgray;" style="float:left" id="pdf-fotoPHP2"></div><div id="pdf-link"><a href="./mebel_medias/katalog-mebeli/bobrujskmebel/PDF/bobruiskmeb_2017.pdf" target="_blank"><img src="../Resources/magaziny-link11.gif" width=362 height=255 alt="ссылка на pdf-каталог Бобруйскмебель, ЗАО" style="float:left; width:100%; height:100%" id="pdf-linkPHP2"></a></div></div></div><div id="catalog-conteiner" class="box"><div id="pdf-block"><div id="pdf-foto" class="in-box"><img src="./mebel_medias/katalog-mebeli/bobrujskmebel/PDF/preview/bobruiskmeb_2018.jpg" alt="preview на pdf-каталог Бобруйскмебель, ЗАО" style="max-width:100%;max-height:100%;margin:auto;top:0px;right:0px;left:0px;bottom:0px;position:absolute;border: 1px solid lightgray;" style="float:left" id="pdf-fotoPHP3"></div><div id="pdf-link"><a href="./mebel_medias/katalog-mebeli/bobrujskmebel/PDF/bobruiskmeb_2018.pdf" target="_blank"><img src="../Resources/magaziny-link11.gif" width=362 height=255 alt="ссылка на pdf-каталог Бобруйскмебель, ЗАО" style="float:left; width:100%; height:100%" id="pdf-linkPHP3"></a></div></div></div><div id="catalog-conteiner" class="box"><div id="pdf-block"><div id="pdf-foto" class="in-box"><img src="./mebel_medias/katalog-mebeli/bobrujskmebel/PDF/preview/Bobruisk_Katalog_2012_spec.jpg" alt="preview на pdf-каталог Бобруйскмебель, ЗАО" style="max-width:100%;max-height:100%;margin:auto;top:0px;right:0px;left:0px;bottom:0px;position:absolute;border: 1px solid lightgray;" style="float:left" id="pdf-fotoPHP4"></div><div id="pdf-link"><a href="./mebel_medias/katalog-mebeli/bobrujskmebel/PDF/Bobruisk_Katalog_2012_spec.pdf" target="_blank"><img src="../Resources/magaziny-link11.gif" width=362 height=255 alt="ссылка на pdf-каталог Бобруйскмебель, ЗАО" style="float:left; width:100%; height:100%" id="pdf-linkPHP4"></a></div></div></div>		</div>
+		<div id="block-catalog-edit" style="display:none">
+					</div>
+		<div id="catalog-mebeli">
+			<h2 class="style2 f-fp f-lp"><span class="style11">Изделия мебели производителя Бобруйскмебель, ЗАО.</span></h2>		</div>
+		<div id="catalog-down">
+			<div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/cezar_1.jpg" alt="фото Цезарь диван Бобруйскмебель" usemap="image2PHP1" title="изображение Цезарь диван Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP1"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Цезарь диван</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13455"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP1"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/luidzhi.jpg" alt="фото Луиджи диван Бобруйскмебель" usemap="image2PHP2" title="изображение Луиджи диван Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP2"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Луиджи диван</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13472"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP2"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2//bobruisk/small/marsel_13475.jpg" alt="фото Тулон диван Бобруйскмебель" usemap="image2PHP3" title="изображение Тулон диван Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP3"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Тулон диван</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13475"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP3"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/nensi.jpg" alt="фото Ненси тахта Бобруйскмебель" usemap="image2PHP4" title="изображение Ненси тахта Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP4"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Ненси тахта</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13479"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP4"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/texas.jpg" alt="фото Техас диван Бобруйскмебель" usemap="image2PHP5" title="изображение Техас диван Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP5"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Техас диван</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13494"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP5"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/trevizo.jpg" alt="фото Тревизо тахта Бобруйскмебель" usemap="image2PHP6" title="изображение Тревизо тахта Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP6"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Тревизо тахта</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13495"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP6"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/elburg.jpg" alt="фото Элбург модульня программа Бобруйскмебель" usemap="image2PHP7" title="изображение Элбург модульня программа Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP7"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Элбург модульня программа</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13460"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP7"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/elburg_1.jpg" alt="фото Элбург модульня программа Бобруйскмебель" usemap="image2PHP8" title="изображение Элбург модульня программа Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP8"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Элбург модульня программа</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13461"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP8"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/evelina.jpg" alt="фото Эвелина набор мебели Бобруйскмебель" usemap="image2PHP9" title="изображение Эвелина набор мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP9"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Эвелина набор мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13466"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP9"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/paola_prixozhaya.jpg" alt="фото Паола тумба Бобруйскмебель" usemap="image2PHP10" title="изображение Паола тумба Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP10"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Паола тумба</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13488"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP10"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/ajvengo.jpg" alt="фото Айвенго набор мягкой мебели Бобруйскмебель" usemap="image2PHP11" title="изображение Айвенго набор мягкой мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP11"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Айвенго набор мягкой мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13449"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP11"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/alenushka.jpg" alt="фото Аленушка набор мягкой мебели Бобруйскмебель" usemap="image2PHP12" title="изображение Аленушка набор мягкой мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP12"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Аленушка набор мягкой мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13450"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP12"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/amsterdam.jpg" alt="фото Амстердам набор мягкой мебели Бобруйскмебель" usemap="image2PHP13" title="изображение Амстердам набор мягкой мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP13"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Амстердам набор мягкой мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13451"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP13"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/artur.jpg" alt="фото Артур набор мягкой мебели Бобруйскмебель" usemap="image2PHP14" title="изображение Артур набор мягкой мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP14"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Артур набор мягкой мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13452"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP14"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2//bobruisk/small/avgustin_13453.jpg" alt="фото Августин набор мягкой мебели Бобруйскмебель" usemap="image2PHP15" title="изображение Августин набор мягкой мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP15"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Августин набор мягкой мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13453"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP15"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/cezar_3.jpg" alt="фото Цезарь набор мягкой мебели Бобруйскмебель" usemap="image2PHP16" title="изображение Цезарь набор мягкой мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP16"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Цезарь набор мягкой мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13456"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP16"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2//bobruisk/small/favorit_13467.jpg" alt="фото Фаворит набор мягкой мебели Бобруйскмебель" usemap="image2PHP17" title="изображение Фаворит набор мягкой мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP17"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Фаворит набор мягкой мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13467"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP17"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/forum.jpg" alt="фото Форум набор мягкой мебели Бобруйскмебель" usemap="image2PHP18" title="изображение Форум набор мягкой мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP18"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Форум набор мягкой мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13468"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP18"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/magdeburg.jpg" alt="фото Магдебург набор мягкой мебели Бобруйскмебель" usemap="image2PHP19" title="изображение Магдебург набор мягкой мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP19"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Магдебург набор мягкой мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13473"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP19"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2///bobruisk/small/rafael_13491.jpg" alt="фото Рафаэль набор мебели Бобруйскмебель" usemap="image2PHP20" title="изображение Рафаэль набор мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP20"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Рафаэль набор мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13491"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP20"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/richard.jpg" alt="фото Ричард набор мягкой мебели Бобруйскмебель" usemap="image2PHP21" title="изображение Ричард набор мягкой мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP21"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Ричард набор мягкой мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13492"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP21"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/simon.jpg" alt="фото Симон набор мягкой мебели Бобруйскмебель" usemap="image2PHP22" title="изображение Симон набор мягкой мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP22"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Симон набор мягкой мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13493"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP22"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2//bobruisk/small/1_novoe_17534.jpg" alt="фото Набор мебели &quot;ВИНСЕНТ&quot; Бобруйскмебель" usemap="image2PHP23" title="изображение Набор мебели &quot;ВИНСЕНТ&quot; Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP23"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Набор мебели &quot;ВИНСЕНТ&quot;</p></div><div id="imgborder2"><a href="/info_goods.php?GD=17534"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP23"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2//bobruisk/small/2_novoe_17535.jpg" alt="фото НАБОР МЯГКОЙ МЕБЕЛИ &quot;МАГДЕБУРГ&quot; Бобруйскмебель" usemap="image2PHP24" title="изображение НАБОР МЯГКОЙ МЕБЕЛИ &quot;МАГДЕБУРГ&quot; Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP24"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - НАБОР МЯГКОЙ МЕБЕЛИ &quot;МАГДЕБУРГ&quot;</p></div><div id="imgborder2"><a href="/info_goods.php?GD=17535"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP24"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2//bobruisk/small/1_novoe_17536.jpg" alt="фото НАБОР МЯГКОЙ МЕБЕЛИ &quot;СИМОН&quot; Бобруйскмебель" usemap="image2PHP25" title="изображение НАБОР МЯГКОЙ МЕБЕЛИ &quot;СИМОН&quot; Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP25"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - НАБОР МЯГКОЙ МЕБЕЛИ &quot;СИМОН&quot;</p></div><div id="imgborder2"><a href="/info_goods.php?GD=17536"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP25"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/cezar.jpg" alt="фото Цезарь диван угловой Бобруйскмебель" usemap="image2PHP26" title="изображение Цезарь диван угловой Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP26"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Цезарь диван угловой</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13454"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP26"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/duet.jpg" alt="фото Дуэт диван угловой Бобруйскмебель" usemap="image2PHP27" title="изображение Дуэт диван угловой Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP27"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Дуэт диван угловой</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13459"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP27"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/magdeburg_1.jpg" alt="фото Магдебург диван уловой Бобруйскмебель" usemap="image2PHP28" title="изображение Магдебург диван уловой Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP28"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Магдебург диван уловой</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13474"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP28"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/kreslo_krovat.jpg" alt="фото Кресло-кровать Бобруйскмебель" usemap="image2PHP29" title="изображение Кресло-кровать Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP29"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Кресло-кровать</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13469"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP29"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2//bobruisk/small/elburg_13462.jpg" alt="фото Элбург библиотека Бобруйскмебель" usemap="image2PHP30" title="изображение Элбург библиотека Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP30"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Элбург библиотека</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13462"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP30"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/paola_biblioteka.jpg" alt="фото Паола набор мебели Бобруйскмебель" usemap="image2PHP31" title="изображение Паола набор мебели Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP31"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Паола набор мебели</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13487"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP31"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2//bobruisk/small/mebel_10829.jpg" alt="фото Габи спальня Бобруйскмебель" usemap="image2PHP32" title="изображение Габи спальня Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP32"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Габи спальня</p></div><div id="imgborder2"><a href="/info_goods.php?GD=10829"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP32"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/dominika.jpg" alt="фото Доминика спальня Бобруйскмебель" usemap="image2PHP33" title="изображение Доминика спальня Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP33"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Доминика спальня</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13458"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP33"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2//bobruisk/small/elburg_13464.jpg" alt="фото Доминика спальня Бобруйскмебель" usemap="image2PHP34" title="изображение Доминика спальня Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP34"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Доминика спальня</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13464"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP34"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/lotos.jpg" alt="фото Лотос спальня Бобруйскмебель" usemap="image2PHP35" title="изображение Лотос спальня Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP35"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Лотос спальня</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13470"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP35"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2//bobruisk/small/paola_13490.jpg" alt="фото Паола спальня Бобруйскмебель" usemap="image2PHP36" title="изображение Паола спальня Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP36"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Паола спальня</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13490"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP36"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/valensiya.jpg" alt="фото Валенсия спальня Бобруйскмебель" usemap="image2PHP37" title="изображение Валенсия спальня Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP37"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Валенсия спальня</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13496"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP37"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2//bobruisk/small/_14706.jpg" alt="фото Паола спальня Бобруйскмебель" usemap="image2PHP38" title="изображение Паола спальня Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP38"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Паола спальня</p></div><div id="imgborder2"><a href="/info_goods.php?GD=14706"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP38"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/lotos_detskaya.jpg" alt="фото Лотос детская Бобруйскмебель" usemap="image2PHP39" title="изображение Лотос детская Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP39"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Лотос детская</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13471"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP39"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2//bobruisk/small/paola_13483.jpg" alt="фото Доминика детская Бобруйскмебель" usemap="image2PHP40" title="изображение Доминика детская Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP40"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Доминика детская</p></div><div id="imgborder2"><a href="/info_goods.php?GD=13483"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP40"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/24_10_12_bobruiskmebel_10.jpg" alt="фото Стол для заседаний Бобруйскмебель" usemap="image2PHP41" title="изображение Стол для заседаний Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP41"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Стол для заседаний</p></div><div id="imgborder2"><a href="/info_goods.php?GD=767"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP41"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/24_10_12_bobruiskmebel_11.jpg" alt="фото Стол для заседаний Бобруйскмебель" usemap="image2PHP42" title="изображение Стол для заседаний Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP42"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Стол для заседаний</p></div><div id="imgborder2"><a href="/info_goods.php?GD=774"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP42"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/11_2009_bobr34.jpg" alt="фото Мебель для переговорных комнат  Бобруйскмебель" usemap="image2PHP43" title="изображение Мебель для переговорных комнат  Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP43"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Мебель для переговорных комнат</p></div><div id="imgborder2"><a href="/info_goods.php?GD=7795"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP43"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/11_2009_bobr35.jpg" alt="фото Мебель для переговорных комнат Бобруйскмебель" usemap="image2PHP44" title="изображение Мебель для переговорных комнат Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP44"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Мебель для переговорных комнат</p></div><div id="imgborder2"><a href="/info_goods.php?GD=7796"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP44"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div><div id="imageCatalog2"><div id="image2"><img src="/ImagesDB2/bobruisk/small/11_2009_bobr36.jpg" alt="фото Мебель для переговорных комнат Бобруйскмебель" usemap="image2PHP45" title="изображение Мебель для переговорных комнат Бобруйскмебель" style="object-fit: contain;width:100%;height:100%;" style="float:left" id="image2PHP45"></div><div id="uppertext2"><p class="tMenu14leftText f-fp f-lp">Бобруйскмебель - Мебель для переговорных комнат</p></div><div id="imgborder2"><a href="/info_goods.php?GD=7797"><img src="../Resources/imgborder2l.png" width=320 height=200 alt="imgborder2" style="float:left" id="imgborder2PHP45"></a></div><div id="lowertext1" style="visibility:hidden"><div id="rub2"><p class="tMenu12leftTextB f-fp f-lp"> руб.</p></div><div id="pricecost1"><p class="tMenu14RightRed f-fp f-lp">0.00</p></div><div id="pricetext1"><p class="tMenu12leftTextB f-fp f-lp">цены от </p></div></div></div>		</div>
+		<div id="catalog-down-edit">
+					</div>
+		<div id="catalog-foot">
+			<div id="to-right-page" style="display:block"><div id="to-right-page-link"><a href="/allproducts.php?page=2&firms=8"><img src="../Resources/to-right-page-lin23.png" width=30 height=30 alt="to-right-page-link" style="float:left" id="to-right-page-linkPHP1"></a></div></div><div id="center-box" style="display:block"><div id="first-page" style="display:none"><p class="pagetext f-fp f-lp">1</p><div id="first-page-link"><a href="/allproducts.php?firms=8"><img src="../Resources/first-page-link23.png" width=30 height=28 alt="first-page-link" style="float:left" id="first-page-linkPHP1"></a></div></div><div id="left-points" style="display:none"><p class="pagetext f-fp f-lp">...</p><div id="left-points-link"><a href="/allproducts.php?page=0&firms=8"><img src="../Resources/left-points-link23.png" width=32 height=30 alt="left-points-link" style="float:left" id="left-points-linkPHP1"></a></div></div><div id="current-page" style="display:block"><p class="pagetext f-fp f-lp"><span class="style12">1</span></p><div id="current-page-link"><a href="/allproducts.php?page=1&firms=8"><img src="../Resources/first-page-link23.png" width=30 height=28 alt="current-page-link" style="float:left" id="current-page-linkPHP1"></a></div></div><div id="right-points" style="display: none"><p class="pagetext f-fp f-lp">...</p><div id="right-points-link"><a href="/allproducts.php?page=2&firms=8"><img src="../Resources/left-points-link23.png" width=32 height=30 alt="right-points-link" style="float:left" id="right-points-linkPHP1"></a></div></div><div id="last-page" style="display: block"><p class="pagetext f-fp f-lp">2</p><div id="last-page-link"><a href="/allproducts.php?page=2&firms=8"><img src="../Resources/first-page-link23.png" width=30 height=28 alt="last-page-link" style="float:left" id="last-page-linkPHP1"></a></div></div></div><div id="to-left-page" style="display:none"><div id="to-left-page-link"><a href="/allproducts.php?firms=8"><img src="../Resources/to-left-page-lin11.jpeg" width=30 height=30 alt="to-left-page-link" style="float:left" id="to-left-page-linkPHP1"></a></div></div>		</div>
+		<p><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+style="display:inline-block;width:970px;height:90px"
+data-ad-client="ca-pub-3379969116950199"
+data-ad-slot="4882915287">
+</ins>
+<script>
+(adsbygoogle=window.adsbygoogle || []).push({});
+</script>
+</p>
+		<div id="catalog-info"><p class="Text12warning f-fp">Цены на сайте указаны только для ознакомления. Точную стоимость товара уточняйте по телефонам, указанным на сайте или в стационарных торговых объектах.</p>
+			<p class="Text12warning f-lp">Обращаем ваше внимание на то, что, вся информация на сайте носит рекламный характер и не является публичной офертой, определяемой положениями статьи 464 Гражданского кодекса Республики Беларусь. Для получения подробной информации о наличии, стоимости мебели, а также о порядке ее приобретения, пожалуйста, обращайтесь в стационарные торговые объекты.Предоставленная информация может содержать ошибки или неточности.</p>
+		</div>
+		<div id="unlock">
+					</div>
+	</div>
+	<div id="footer"><div id="orangeline" class="polosa-100"></div>
+		<div id="footer-gray"></div>
+		<div id="footerInfo"><div id="orangeText"><div id="ordercatalog"><p class="white14leftB f-fp f-lp">Заказать последний номер <br>каталога &quot;МЕБЕЛЬНЫЙ САЛОН&quot; в формате PDF:</p>
+				</div>
+				<input id="notspm" class="mylo-input" type=text name="notspm" placeholder="e-mail" size=36 onblur="check_email(this);" onkeypress="if (((event.which > 0) && (event.which < 8)) || ((event.which > 9) && (event.which < 45)) || (event.which == 47) || ((event.which > 57) && (event.which < 64)) || ((event.which > 90) && (event.which < 95)) ||  (event.which == 96) || (event.which > 122)){return false;}">
+				<input id="sendMail" class="white16center" type=submit value="заказать">
+			</div>
+			<div id="ms"><img src="/images/ms/ms.jpg" width=100 height=136 alt="MebelniiSalon" style="float:left">
+			</div>
+			<div id="copyright">
+				<p class="copyright-block f-fp f-lp">© 1996-2021 УП &quot;ИраСофтАнт&quot;. Все права защищены. Вся информация представленная на этом сервере, включая графические изображения и содержимое базы данных, является собственностью УП &quot;ИpaСофтАнт&quot;. Любое использование, копирование, распространение, перепечатка только с письменного разрешения <br>УП &quot;ИраСофтАнт&quot;.</p>			</div>
+			<div id="submenu"><p class="submenu-text f-fp f-lp"><a href="/softant">О нас<br></a><a href="/stati-o-mebeli">Статьи о мебели</a><br><a href="/r/price/price.pdf" target="_blank">Разместить рекламу<br></a><a href="/partnerstvo-internet-magazinov-mebeli" target="_blank">Партнерство интернет-магазинов</a></p>
+			</div>
+		</div>
+	</div>
+	<div id="menu-CSS"><style type="text/css">
+.menu-radio
+{
+	display:none;
+}
+.swith-submenu
+{
+	display: inline-block;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	min-height: 40px;
+	z-index: 4;
+	background-image: url(../Resources/strelka.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.sub-block
+{
+	top: 0px !important;
+	max-height: 0px;
+	-webkit-transform-origin: center top;
+	-o-transform-origin: center top;
+	-moz-transform-origin: center top;
+	-ms-transform-origin: center top;
+	transform-origin: center top;
+	-webkit-transform: scaleY(0); 
+	-o-transform: scaleY(0); 
+	-moz-transform: scaleY(0); 
+	-ms-transform: scaleY(0); 
+	transform: scaleY(0); 
+
+	-webkit-transition: all 500ms;
+	-o-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-ms-transition: all 500ms;
+	transition: all 500ms;
+}
+.menu-block
+{
+	height: auto !important;
+}
+.menu-radio:checked ~ .sub-block
+{
+	max-height: 20000px;
+	-webkit-transform: scaleY(1);
+	-o-transform: scaleY(1);
+	-moz-transform: scaleY(1);
+	-ms-transform: scaleY(1); 
+	transform: scaleY(1); 
+
+}
+</style></div>
+	<div id="header"><div id="headblock" class="f-ms"><div id="whiteline" class="f-ms"></div>
+			<div id="topmenu" class="f-ms"><div id="logo" class="f-ms"><a href="/">
+<img src='/images/logo.svg' onerror="this.onerror=null; this.src='/images/logo.png' width="210" height="50" alt=''">
+</a></div>
+				<div id="menuhead" class="f-ms">
+										<div id="placeholder-css" class="f-ms"><style type="text/css">
+.lupa-background
+{
+	background: url(/Resources/lupa_new.svg) 98% no-repeat;
+	background-size: 20px;
+}
+.input1::placeholder { text-align:right; color:#aaaaaa;font-weight:100;};
+.input2::-webkit-input-placeholder { text-align:right; color:#aaaaaa;font-weight:100;};
+.input3::-moz-input-placeholder { text-align:right; color:#aaaaaa;font-weight:100;};
+</style>
+<script>
+function translit(str)
+{
+	var space = '-';
+	var link = '';
+	var transl = {
+		'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ё': 'e', 'ж': 'zh',
+		'з': 'z', 'и': 'i', 'й': 'j', 'к': 'k', 'л': 'l', 'м': 'm', 'н': 'n',
+		'о': 'o', 'п': 'p', 'р': 'r','с': 's', 'т': 't', 'у': 'u', 'ф': 'f', 'х': 'h',
+		'ц': 'c', 'ч': 'ch', 'ш': 'sh', 'щ': 'sh','ъ': space,
+		'ы': 'y', 'ь': space, 'э': 'e', 'ю': 'yu', 'я': 'ya'
+	}
+if (str != '')
+	str = str.toLowerCase();
+
+for (var i = 0; i < str.length; i++){
+	if (/[а-яё]/.test(str.charAt(i))){ // заменяем символы на русском
+		link += transl[str.charAt(i)];
+	} else if (/[a-z0-9]/.test(str.charAt(i))){ // символы на анг. оставляем как есть
+		link += str.charAt(i);
+	} else {
+		if (link.slice(-1) !== space) link += space; // прочие символы заменяем на space
+	}
+}
+	return link;
+}
+</script>
+</div>
+					<div id="mobile-znak" class="f-ms" onclick="if (confirm('Переключаемся на мобильную версию сайта?')) { document.cookie='mobile=true;path=/;';location.reload();};" style="display:none"></div>
+					<div id="svg-shop" class="f-ms"><object type="image/svg+xml" data="../Resources/new_shop.svg" width=27 height=27 style="float:left">
+							<embed src="../Resources/new_shop.svg" width=27 height=27 alt="svg-shop">
+						</object>
+					</div>
+					<div id="shops" class="f-ms topmenus"><p class="tMenu14leftText f-fp f-lp"><a href="/magaziny-mebeli/belorusskie-proizvoditeli-mebeli/minsk">МАГАЗИНЫ</a></p>
+					</div>
+					<img id="svg-fabrik" class="f-ms" src="../Resources/new_fabrik.svg" alt="svg-fabrik">
+					<div id="allmeb" class="f-ms topmenus"><p class="tMenu14leftText f-fp f-lp"><a href="/belorusskie-proizvoditeli-mebeli">ПРОИЗВОДИТЕЛИ МЕБЕЛИ</a></p>
+					</div>
+					<input id="poisk" class="login-parol f-ms input1 input2 input3 lupa-background" type=text name="poisk" placeholder="Поиск" size=18 onkeypress="if(event.which == 13){document.cookie='poisk='+encodeURIComponent(this.value)+';path=/;';document.location.href='/poisk/'+translit(this.value);return false;}">
+				</div>
+			</div>
+			<div id="grayline" class="f-ms"></div>
+			<nav id="menu" class="menutext14leftText2 f-ms">
+				<div class="fwNavContainer1">
+					<ul class="f-fp f-lp" id="fwNav1">
+						<li class="fwFirstChild fwNavItem"><a href="/myagkaya-mebel">МЯГКАЯ</a>
+							<ul class="sub fwFirstList">
+								<li class="fwFirstChild fwNavItem"><a href="/myagkaya-mebel/nabory-myagkoj-mebeli">Наборы мягкой мебели</a></li>
+								<li class="fwNavItem"><a href="/myagkaya-mebel/divany-taxty">Диваны, тахты</a></li>
+								<li class="fwNavItem"><a href="/myagkaya-mebel/divany-uglovye">Диваны угловые</a></li>
+								<li class="fwNavItem"><a href="/myagkaya-mebel/kresla-pufy">Кресла, пуфы</a></li>
+								<li class="fwNavItem"><a href="/myagkaya-mebel/mexanizm-transformacii">Механизм трансформации</a></li>
+								<li class="fwNavItem"><a href="/myagkaya-mebel/tkani-tekstil">Ткани, текстиль</a></li>
+								<li class="fwNavItem"><a href="/myagkaya-mebel/furnitura">Фурнитура</a></li>
+								<li class="fwLastChild fwNavItem"><a href="/myagkaya-mebel/aksessuary">Аксессуары</a></li>
+							</ul>
+						</li>
+						<li class="fwNavItem"><a href="/spalnya">СПАЛЬНЯ</a>
+							<ul class="sub">
+								<li class="fwFirstChild fwNavItem"><a href="/spalnya/spalnye-garnitury">Спальные гарнитуры</a></li>
+								<li class="fwNavItem"><a href="/spalnya/krovati">Кровати</a></li>
+								<li class="fwNavItem"><a href="/spalnya/komody-tumby">Комоды, тумбы</a></li>
+								<li class="fwNavItem"><a href="/spalnya/tualetnye-stoliki">Туалетные столики</a></li>
+								<li class="fwNavItem"><a href="/spalnya/shkafy">Шкафы</a></li>
+								<li class="fwNavItem"><a href="/spalnya/veshalki">Вешалки</a></li>
+								<li class="fwNavItem"><a href="/spalnya/matrasy">Матрасы</a></li>
+								<li class="fwNavItem"><a href="/spalnya/podushki">Подушки</a></li>
+								<li class="fwNavItem"><a href="/spalnya/ortopedicheskie-osnovaniya">Ортопедические основания</a></li>
+								<li class="fwNavItem"><a href="/spalnya/zerkala">Зеркала</a></li>
+								<li class="fwNavItem"><a href="/spalnya/lyustry-svetilniki">Люстры, светильники</a></li>
+								<li class="fwNavItem"><a href="/spalnya/aksessuary">Аксессуары</a></li>
+								<li class="fwLastChild fwNavItem"><a href="/spalnya/furnitura">Фурнитура</a></li>
+							</ul>
+						</li>
+						<li class="fwNavItem"><a href="/detskaya-mebel">ДЕТСКАЯ</a>
+							<ul class="sub">
+								<li class="fwFirstChild fwNavItem"><a href="/detskaya-mebel/nabory-mebeli">Наборы мебели</a></li>
+								<li class="fwNavItem"><a href="/detskaya-mebel/krovati">Кровати</a></li>
+								<li class="fwNavItem"><a href="/detskaya-mebel/komody">Комоды</a></li>
+								<li class="fwNavItem"><a href="/detskaya-mebel/shkafy">Шкафы</a></li>
+								<li class="fwNavItem"><a href="/detskaya-mebel/stoly">Столы</a></li>
+								<li class="fwNavItem"><a href="/detskaya-mebel/stulya">Стулья</a></li>
+								<li class="fwNavItem"><a href="/detskaya-mebel/ortopedicheskie-osnovaniya">Ортопедические основания</a></li>
+								<li class="fwNavItem"><a href="/detskaya-mebel/lyustry-svetilniki">Люстры, светильники</a></li>
+								<li class="fwNavItem"><a href="/detskaya-mebel/aksessuary">Аксессуары</a></li>
+								<li class="fwLastChild fwNavItem"><a href="/detskaya-mebel/furnitura">Фурнитура</a></li>
+							</ul>
+						</li>
+						<li class="fwNavItem"><a href="/gostinaya-mebel">ГОСТИНАЯ</a>
+							<ul class="sub">
+								<li class="fwFirstChild fwNavItem"><a href="/gostinaya-mebel/nabory-mebeli">Наборы мебели</a></li>
+								<li class="fwNavItem"><a href="/gostinaya-mebel/bufety-vitriny">Буфеты, витрины</a></li>
+								<li class="fwNavItem"><a href="/gostinaya-mebel/stenki">Стенки</a></li>
+								<li class="fwNavItem"><a href="/gostinaya-mebel/komody-tumby">Комоды, тумбы</a></li>
+								<li class="fwNavItem"><a href="/gostinaya-mebel/kabinety-biblioteki">Кабинеты, библиотеки</a></li>
+								<li class="fwNavItem"><a href="/gostinaya-mebel/stoly">Столы</a></li>
+								<li class="fwNavItem"><a href="/gostinaya-mebel/stulya">Стулья</a></li>
+								<li class="fwNavItem"><a href="/gostinaya-mebel/polki-stellazhi">Полки, стеллажи</a></li>
+								<li class="fwNavItem"><a href="/gostinaya-mebel/aksessuary">Аксессуары</a></li>
+								<li class="fwNavItem"><a href="/gostinaya-mebel/kaminy">Камины</a></li>
+								<li class="fwNavItem"><a href="/gostinaya-mebel/lyustry-svetilniki">Люстры, светильники</a></li>
+								<li class="fwNavItem"><a href="/gostinaya-mebel/zerkala">Зеркала</a></li>
+								<li class="fwLastChild fwNavItem"><a href="/gostinaya-mebel/furnitura">Фурнитура</a></li>
+							</ul>
+						</li>
+						<li class="fwNavItem"><a href="/kuxnya">КУХНЯ</a>
+							<ul class="sub">
+								<li class="fwFirstChild fwNavItem"><a href="/kuxnya/uglovye">Угловые</a></li>
+								<li class="fwNavItem"><a href="/kuxnya/linejnye">Линейные</a></li>
+								<li class="fwNavItem"><a href="/kuxnya/kuxonnye-ugolki">Кухонные уголки</a></li>
+								<li class="fwNavItem"><a href="/kuxnya/stoly">Столы</a></li>
+								<li class="fwNavItem"><a href="/kuxnya/stulya">Стулья</a></li>
+								<li class="fwNavItem"><a href="/kuxnya/fasady">Фасады</a></li>
+								<li class="fwNavItem"><a href="/kuxnya/skinali">Скинали</a></li>
+								<li class="fwNavItem"><a href="/kuxnya/lyustry-svetilniki">Люстры, светильники</a></li>
+								<li class="fwLastChild fwNavItem"><a href="/kuxnya/furnitura">Фурнитура</a></li>
+							</ul>
+						</li>
+						<li class="fwNavItem"><a href="/vannaya-mebel">ВАННАЯ</a>
+							<ul class="sub">
+								<li class="fwFirstChild fwNavItem"><a href="/vannaya-mebel/nabory-mebeli-dlya-vannoj">Наборы мебели для ванной</a></li>
+								<li class="fwNavItem"><a href="/vannaya-mebel/zerkala">Зеркала</a></li>
+								<li class="fwNavItem"><a href="/vannaya-mebel/lyustry-svetilniki">Люстры, светильники</a></li>
+								<li class="fwLastChild fwNavItem"><a href="/vannaya-mebel/aksessuary">Аксессуары</a></li>
+							</ul>
+						</li>
+						<li class="fwNavItem"><a href="/ofisnaya-mebel">ОФИСНАЯ</a>
+							<ul class="sub">
+								<li class="fwFirstChild fwNavItem"><a href="/ofisnaya-mebel/nabory-dlya-rukovoditelya">Наборы для руководителя</a></li>
+								<li class="fwNavItem"><a href="/ofisnaya-mebel/nabory-dlya-personala">Наборы для персонала</a></li>
+								<li class="fwNavItem"><a href="/ofisnaya-mebel/kresla-i-stulya">Кресла и стулья</a></li>
+								<li class="fwNavItem"><a href="/ofisnaya-mebel/divany">Диваны</a></li>
+								<li class="fwNavItem"><a href="/ofisnaya-mebel/shkafy-i-tumby">Шкафы и тумбы</a></li>
+								<li class="fwNavItem"><a href="/ofisnaya-mebel/stojki-resepshn">Стойки, ресепшн</a></li>
+								<li class="fwLastChild fwNavItem"><a href="/ofisnaya-mebel/stoly">Столы</a></li>
+							</ul>
+						</li>
+						<li class="fwNavItem"><a href="/prixozhaya">ПРИХОЖАЯ</a>
+							<ul class="sub">
+								<li class="fwFirstChild fwNavItem"><a href="/prixozhaya/nabory-mebeli-dlya-prixozhej">Наборы мебели для прихожей</a></li>
+								<li class="fwNavItem"><a href="/prixozhaya/zerkala">Зеркала</a></li>
+								<li class="fwNavItem"><a href="/prixozhaya/veshalki">Вешалки</a></li>
+								<li class="fwLastChild fwNavItem"><a href="/prixozhaya/skami-banketki">Скамьи, банкетки</a></li>
+							</ul>
+						</li>
+						<li class="fwNavItem"><a href="/sadovaya-mebel">САДОВАЯ</a>
+							<ul class="sub">
+								<li class="fwFirstChild fwNavItem"><a href="/sadovaya-mebel/nabory-mebeli">Наборы мебели</a></li>
+								<li class="fwNavItem"><a href="/sadovaya-mebel/skamejki">Скамейки</a></li>
+								<li class="fwNavItem"><a href="/sadovaya-mebel/stoly">Столы</a></li>
+								<li class="fwNavItem"><a href="/sadovaya-mebel/stulya">Стулья</a></li>
+								<li class="fwNavItem"><a href="/sadovaya-mebel/besedki">Беседки</a></li>
+								<li class="fwLastChild fwNavItem"><a href="/sadovaya-mebel/cvetochnicy">Цветочницы</a></li>
+							</ul>
+						</li>
+						<li class="fwNavItem"><a href="/shkafy">ШКАФЫ</a>
+							<ul class="sub">
+								<li class="fwFirstChild fwNavItem"><a href="/shkafy/kupe">Купе</a></li>
+								<li class="fwNavItem"><a href="/shkafy/uglovye">Угловые</a></li>
+								<li class="fwNavItem"><a href="/shkafy/linejnye">Линейные</a></li>
+								<li class="fwNavItem"><a href="/shkafy/radiusnye">Радиусные</a></li>
+								<li class="fwLastChild fwNavItem"><a href="/shkafy/furnitura">Фурнитура</a></li>
+							</ul>
+						</li>
+						<li class="fwLastChild fwNavItem"><a href="/mebel-pod-zakaz" class="ulli">ПОД ЗАКАЗ</a>
+							<ul class="sub">
+								<li class="fwFirstChild fwNavItem"><a href="/mebel-pod-zakaz/kovanaya">Кованная</a></li>
+								<li class="fwNavItem"><a href="/mebel-pod-zakaz/dlya-bilyardnyx">Для бильярдных</a></li>
+								<li class="fwNavItem"><a href="/mebel-pod-zakaz/dlya-restoranov">Для ресторанов</a></li>
+								<li class="fwNavItem"><a href="/mebel-pod-zakaz/dlya-aktovyx-zalov">Для актовых залов</a></li>
+								<li class="fwNavItem"><a href="/mebel-pod-zakaz/dlya-magazinov">Для магазинов</a></li>
+								<li class="fwNavItem"><a href="/mebel-pod-zakaz/dlya-shkol-i-sadov">Для школ и садов</a></li>
+								<li class="fwNavItem"><a href="/mebel-pod-zakaz/dlya-bankov">Для банков</a></li>
+								<li class="fwNavItem"><a href="/mebel-pod-zakaz/remont-mebeli">Ремонт мебели</a></li>
+								<li class="fwNavItem"><a href="/mebel-pod-zakaz/dveri">Двери</a></li>
+								<li class="fwLastChild fwNavItem"><a href="/mebel-pod-zakaz/materialy-dlya-proizvodstva-mebeli">Материалы для производства</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<div id="path"><div id="pathblock">
+						<div id="pathtext">
+				<p class="menutext14leftText2 f-fp f-lp"><img id="homePHP1" src="/images/png/home.png" alt="" class="subarrow" onclick="location.href='http://mebel.by'" style="cursor:pointer"><img id="firstarrowPHP1" src="/images/png/thin_arrow.png" alt="" class="subarrow"> Бобруйскмебель, ЗАО <img id="secondarrow1PHP1" src="/images/png/thin_arrow.png" alt="" class="subarrow">  Все изделия</p>			</div>
+			<div id="grayline1px"></div>
+		</div>
+	</div>
+	<div id="citys-js">
+		<script>var citys = [{name:"bobrujsk",rus_name:"Бобруйск",longi:"29.225116",lati:"53.145711"},{name:"vitebsk",rus_name:"Витебск",longi:"30.206337",lati:"55.192672"},{name:"grodno",rus_name:"Гродно",longi:"23.829825",lati:"53.678122"},{name:"zhlobin",rus_name:"Жлобин",longi:"30.038531",lati:"52.892842"},{name:"lida",rus_name:"Лида",longi:"25.293351",lati:"53.891556"},{name:"minsk",rus_name:"Минск",longi:"27.404949",lati:"53.91146"},{name:"svetlogorsk",rus_name:"Светлогорск",longi:"29.731011",lati:"52.63551"},{name:"pruzhany",rus_name:"Пружаны",longi:"24.455924",lati:"52.557396"},{name:"gomel",rus_name:"Гомель",longi:"31.014272",lati:"52.42416"},{name:"baranovichi",rus_name:"Барановичи",longi:"26.016513",lati:"53.132087"},{name:"bereza",rus_name:"Береза",longi:"24.982983",lati:"52.533513"},{name:"brest",rus_name:"Брест",longi:"23.71202",lati:"52.08951"},{name:"kobrin",rus_name:"Кобрин",longi:"24.353911",lati:"52.208929"},{name:"luninec",rus_name:"Лунинец",longi:"26.800931",lati:"52.245833"},{name:"mogilev",rus_name:"Могилев",longi:"30.331014",lati:"53.894617"},{name:"pinsk",rus_name:"Пинск",longi:"26.090975",lati:"52.111838"},{name:"polock",rus_name:"Полоцк",longi:"28.778303",lati:"55.488111"},{name:"sluck",rus_name:"Слуцк",longi:"27.55221",lati:"53.026918"},{name:"soligorsk",rus_name:"Солигорск",longi:"27.522413",lati:"52.787593"}];</script>	</div>
+	<div id="types-js"></div>
+	<div id="icoordinats-js"><script src="https://api-maps.yandex.ru/2.1/?apikey=bd279828-db37-4d08-af44-34f88fe7436c&lang=ru_RU" type="text/javascript"></script>
+<script type="text/javascript">
+function ilatlong(citys) {
+	setTimeout(function(){icoordinats(citys);},3000);
+	}
+//====== Функция получения координат пользователя и записи в куки =======//
+//---------------------нужно подгрузить api яндекс карт------------------//
+function icoordinats(citys)
+{
+	ymaps.geolocation.get(
+	{
+    	provider: 'auto', // Выставляем опцию для определения положения по ip или gps
+    	// Автоматически геокодируем полученный результат.
+    	autoReverseGeocode: true
+	}).then(function (result)
+		{// Обрабатываем полученный результат
+			var lati = result.geoObjects.position[0];
+			var longi = result.geoObjects.position[1];
+			
+//			document.cookie= 'longi='+longi+'; path=/;';
+//			document.cookie= 'lati='+lati+'; path=/;';
+			var longi_f = parseFloat(longi);
+			var lati_f = parseFloat(lati);
+			var delta = 100;
+			var city_name = '';
+			var city_rus_name = '';
+			for(var i=0; i<citys.length; i++)
+				{
+				var delta_longi = Math.abs(longi_f-parseFloat(citys[i].longi));
+				var delta_lati = Math.abs(lati_f-parseFloat(citys[i].lati));
+				if((delta_longi+delta_lati) < delta)
+					{
+					delta = delta_longi+delta_lati;
+					city_name = citys[i].name;
+					city_rus_name = citys[i].rus_name;
+					}
+				}
+			document.getElementById('Icity').href='/magaziny-mebeli/'+'bobrujskmebel'+'/'+city_name;
+			document.getElementById('Icity').innerHTML='<strong>'+city_rus_name+'</strong> - ближайший город где можно купить мебель '+'<strong>Бобруйскмебель, ЗАО</strong>';
+			
+		});
+
+}
+</script>
+//=========================//
+</div>
+	<div id="flags">
+			</div>
+	<div id="block-ok" style="display:none">
+			</div>
+	<div id="block-firmAdd" style="display:none">
+			</div>
+	<div id="block-goodAdd" style="display:none">
+			</div>
+	<div id="box-style"><style>
+.box{
+	position: relative !important;
+	width: calc(32% - 30px) !important;
+	}
+.box:before{
+	content: "";
+	display: block;
+	padding-top: 70.9%; 	/* initial ratio of 360:255*/
+	}
+@media screen and (max-width:1023px)
+{
+	.box
+	{
+		width: calc(50% - 30px) !important;
+	}
+}
+@media screen and (max-width:480px)
+{
+	.box
+	{
+		width: calc(100% - 30px) !important;
+	}
+}
+@media screen and (max-width:1193px)
+{
+	.height100
+	{
+		height:100% !important;
+	}
+}
+</style></div>
+	
+	<map id="map1" name="firmLogoPHP1"><area alt="firmLogo" coords="474,196,704,426" href="http://" target="_blank"></map>	
+	
+	<map id="map2" name="image2PHP1"><area alt="фото Цезарь диван Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13455" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP2"><area alt="фото Луиджи диван Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13472" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP3"><area alt="фото Тулон диван Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13475" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP4"><area alt="фото Ненси тахта Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13479" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP5"><area alt="фото Техас диван Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13494" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP6"><area alt="фото Тревизо тахта Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13495" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP7"><area alt="фото Элбург модульня программа Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13460" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP8"><area alt="фото Элбург модульня программа Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13461" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP9"><area alt="фото Эвелина набор мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13466" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP10"><area alt="фото Паола тумба Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13488" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP11"><area alt="фото Айвенго набор мягкой мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13449" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP12"><area alt="фото Аленушка набор мягкой мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13450" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP13"><area alt="фото Амстердам набор мягкой мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13451" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP14"><area alt="фото Артур набор мягкой мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13452" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP15"><area alt="фото Августин набор мягкой мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13453" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP16"><area alt="фото Цезарь набор мягкой мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13456" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP17"><area alt="фото Фаворит набор мягкой мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13467" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP18"><area alt="фото Форум набор мягкой мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13468" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP19"><area alt="фото Магдебург набор мягкой мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13473" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP20"><area alt="фото Рафаэль набор мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13491" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP21"><area alt="фото Ричард набор мягкой мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13492" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP22"><area alt="фото Симон набор мягкой мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13493" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP23"><area alt="фото Набор мебели &quot;ВИНСЕНТ&quot; Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=17534" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP24"><area alt="фото НАБОР МЯГКОЙ МЕБЕЛИ &quot;МАГДЕБУРГ&quot; Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=17535" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP25"><area alt="фото НАБОР МЯГКОЙ МЕБЕЛИ &quot;СИМОН&quot; Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=17536" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP26"><area alt="фото Цезарь диван угловой Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13454" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP27"><area alt="фото Дуэт диван угловой Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13459" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP28"><area alt="фото Магдебург диван уловой Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13474" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP29"><area alt="фото Кресло-кровать Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13469" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP30"><area alt="фото Элбург библиотека Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13462" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP31"><area alt="фото Паола набор мебели Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13487" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP32"><area alt="фото Габи спальня Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=10829" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP33"><area alt="фото Доминика спальня Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13458" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP34"><area alt="фото Доминика спальня Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13464" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP35"><area alt="фото Лотос спальня Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13470" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP36"><area alt="фото Паола спальня Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13490" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP37"><area alt="фото Валенсия спальня Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13496" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP38"><area alt="фото Паола спальня Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=14706" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP39"><area alt="фото Лотос детская Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13471" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP40"><area alt="фото Доминика детская Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=13483" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP41"><area alt="фото Стол для заседаний Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=767" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP42"><area alt="фото Стол для заседаний Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=774" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP43"><area alt="фото Мебель для переговорных комнат  Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=7795" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP44"><area alt="фото Мебель для переговорных комнат Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=7796" title="Переход на страницу изделия"></map><map id="map2" name="image2PHP45"><area alt="фото Мебель для переговорных комнат Бобруйскмебель" coords="474,2710,792,2908" href="/info_goods.php?GD=7797" title="Переход на страницу изделия"></map>	
+</div>
+<div><input type=hidden name="pdf_add" value="0">
+</div></form>
+</body>
+</html>
+<!DOCTYPE HTML>
+
