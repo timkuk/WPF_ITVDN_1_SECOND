@@ -10,9 +10,9 @@ namespace Lesson31HomeWork31_Task2
     public class Program
     {
         static readonly HttpClient client = new HttpClient();
-        const string patternForNumber = @"\+?[0-9\s\-\(\)]+";
+        const string patternForNumber = @"^((8|\+374|\+994|\+995|\+375|\+7|\+380|\+38|\+996|\+998|\+993)[\- ]?)?\(?\d{3,5}\)?[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}(([\- ]?\d{1})?[\- ]?\d{1})?$";
         const string patternForEmailAdress = @"[0-9A-Za-z_.-]+@[0-9a-zA-Z-]+\.[a-zA-Z]{2,4}";
-        const string patternForAllLinksOnTheSite = @"";
+        const string patternForAllLinksOnTheSite = @"\b(\w){1}\b";
         public static async Task Main()
         {
             var numberRegex = new Regex(patternForNumber);
@@ -22,15 +22,20 @@ namespace Lesson31HomeWork31_Task2
             {
                 StreamReader reader = File.OpenText(@"E:\ITVDN\03_C# Essential\WPF_ITVDN_1-master\Lesson31HomeWork31_Task2\Код сайта для парсинга.txt");
                 string testParsing = reader.ReadToEnd();
+                var coll = linksRegex.Matches(testParsing);
+                var file = new FileInfo(@"E:\ITVDN\03_C# Essential\WPF_ITVDN_1-master\Lesson31HomeWork31_Task2\Результат парсинга.txt");
+                StreamWriter writer = file.CreateText();
+                writer.Write(coll);
+                writer.Close();
                 var splitText = testParsing.Split(' ');
                 foreach(var splitword in splitText)
                 {
                     if ((numberRegex.IsMatch(splitword)) || (emailRegex.IsMatch(splitword)) || linksRegex.IsMatch(splitword))
                     {
-                        var file = new FileInfo(@"E:\ITVDN\03_C# Essential\WPF_ITVDN_1-master\Lesson31HomeWork31_Task2\Результат парсинга.txt");
-                        StreamWriter writer = file.CreateText();
-                        writer.Write(splitword);
-                        writer.Close();
+                        //var file = new FileInfo(@"E:\ITVDN\03_C# Essential\WPF_ITVDN_1-master\Lesson31HomeWork31_Task2\Результат парсинга.txt");
+                        //StreamWriter writer = file.CreateText();
+                        //writer.Write(splitword);
+                        //writer.Close();
                     }
                 }
                 HttpResponseMessage response = await client.GetAsync("https://mebel.by/allproducts.php?firms=8/");
