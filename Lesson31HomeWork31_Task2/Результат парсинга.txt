@@ -1,1 +1,16 @@
-System.Text.RegularExpressions.MatchCollection
+Номера телефонов с сайта:
+ +375 225 74-71-42
+ +375225737813
+ +375225737872
+ +375225737880
+ Почта с сайта:
+ name@site.ext
+ market@bobruiskmebel.by
+ Ссылки с сайта:
+ https://www.googletagmanager.com/gtag/js?id=UA-2144396-3
+ https://mebel.by/
+ https://mebel.by/allproducts.php?firms=8
+ https://mc.yandex.ru/metrika/tag.js
+ http://mebel.by
+ https://api-maps.yandex.ru/2.1/?apikey=bd279828-db37-4d08-af44-34f88fe7436c&lang=ru_RU
+ https://ru.stackoverflow.com

@@ -10,9 +10,9 @@ namespace Lesson31HomeWork31_Task2
     public class Program
     {
         static readonly HttpClient client = new HttpClient();
-        const string patternForNumber = @"^((8|\+374|\+994|\+995|\+375|\+7|\+380|\+38|\+996|\+998|\+993)[\- ]?)?\(?\d{3,5}\)?[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}[\- ]?\d{1}(([\- ]?\d{1})?[\- ]?\d{1})?$";
+        const string patternForNumber = @"(?:\+|\d)[\d\-\(\) ]{9,}\d";
         const string patternForEmailAdress = @"[0-9A-Za-z_.-]+@[0-9a-zA-Z-]+\.[a-zA-Z]{2,4}";
-        const string patternForAllLinksOnTheSite = @"\b(\w){1}\b";
+        const string patternForAllLinksOnTheSite = @"(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])";
         public static async Task Main()
         {
             var numberRegex = new Regex(patternForNumber);
@@ -22,11 +22,31 @@ namespace Lesson31HomeWork31_Task2
             {
                 StreamReader reader = File.OpenText(@"E:\ITVDN\03_C# Essential\WPF_ITVDN_1-master\Lesson31HomeWork31_Task2\Код сайта для парсинга.txt");
                 string testParsing = reader.ReadToEnd();
-                var coll = linksRegex.Matches(testParsing);
+                var coll = numberRegex.Matches(testParsing);
+                var emai = emailRegex.Matches(testParsing);
+                var links = linksRegex.Matches(testParsing);
                 var file = new FileInfo(@"E:\ITVDN\03_C# Essential\WPF_ITVDN_1-master\Lesson31HomeWork31_Task2\Результат парсинга.txt");
                 StreamWriter writer = file.CreateText();
-                writer.Write(coll);
+                writer.Write("Номера телефонов с сайта:");
+                for (int i = 0; i < coll.Count; i++)
+                {
+                    writer.Write($"\n {coll[i].Value}");
+                    Console.WriteLine(coll[i].Value);
+                }
+                writer.Write("\n Почта с сайта:");
+                for (int i = 0; i < emai.Count; i++)
+                {
+                    writer.Write($"\n {emai[i].Value}");
+                    Console.WriteLine(emai[i].Value);
+                }
+                writer.Write("\n Ссылки с сайта:");
+                for (int i = 0; i < links.Count; i++)
+                {
+                    writer.Write($"\n {links[i].Value}");
+                    Console.WriteLine(links[i].Value);
+                }
                 writer.Close();
+                Console.ReadKey();
                 var splitText = testParsing.Split(' ');
                 foreach(var splitword in splitText)
                 {

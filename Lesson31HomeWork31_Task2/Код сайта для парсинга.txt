@@ -99,9 +99,9 @@ function max_min(object,min,max)
 			</div>
 			<div id="right-block">
 				<div id="info-block"><div id="city-block"><div id="cityName"><p class="ccc12left f-fp f-lp">Город:</p></div><div id="Name"><p class="tMenu14Left f-fp f-lp">Бобруйск</p></div></div><div id="address-block"><div id="addressName"><p class="ccc12left f-fp f-lp">Адрес:</p></div><div id="Address"><p class="tMenu14Left f-fp f-lp">ул. Новошоссейная, 2</p></div></div><div id="phone-block"><div id="phoneName"><p class="ccc12left f-fp f-lp">Телефон:</p></div><div id="Phone"><p class="tMenu14Left f-fp f-lp">+375 225 74-71-42, 
-+375 225 73-78-13, 
-+375 225 73-78-72,
-+375 225 73-78-80</p></div></div><div id="web-block"><div id="webName"><p class="ccc12left f-fp f-lp">Сайт:</p></div><div id="Web"><p class="tMenu14Left f-fp f-lp"><span class="orang-color"><a href="" target="_blank" rel="nofollow"></a></span></p></div></div><div id="email-block"><div id="emailName"><p class="ccc12left f-fp f-lp">E-mail:</p></div><div id="Email"><p class="tMenu14Left f-fp f-lp"><a href="mailto:" target="_blank" rel="nofollow"><span class="TEXT-color" style="text-decoration:underline">market@bobruiskmebel.by</span></a></p></div></div><div id="desc-block"><div id="descName"><p class="ccc12left f-fp f-lp">Инфо:</p></div><div id="Desc"><p class="tMenu14Left f-fp f-lp">Закрытое акционерное общество «Бобруйскмебель» - предприятие с 90-летней историей и сложившимися традициями, с многолетним опытом работы в мебельной отрасли и динамично развивающимся производством.<br />
+			
+			+375225737813  +375225737872 +375225737880
+</p></div></div><div id="web-block"><div id="webName"><p class="ccc12left f-fp f-lp">Сайт:</p></div><div id="Web"><p class="tMenu14Left f-fp f-lp"><span class="orang-color"><a href="" target="_blank" rel="nofollow"></a></span></p></div></div><div id="email-block"><div id="emailName"><p class="ccc12left f-fp f-lp">E-mail:</p></div><div id="Email"><p class="tMenu14Left f-fp f-lp"><a href="mailto:" target="_blank" rel="nofollow"><span class="TEXT-color" style="text-decoration:underline"> market@bobruiskmebel.by </span></a></p></div></div><div id="desc-block"><div id="descName"><p class="ccc12left f-fp f-lp">Инфо:</p></div><div id="Desc"><p class="tMenu14Left f-fp f-lp">Закрытое акционерное общество «Бобруйскмебель» - предприятие с 90-летней историей и сложившимися традициями, с многолетним опытом работы в мебельной отрасли и динамично развивающимся производством.<br />
 Отличительной особенностью нашего предприятия является то, что вся мебель традиционно изготавливается из экологически чистых, натуральных материалов - массива ценных парод древесины, сосны, натурального шпона различных пород деревьев. Применяемые отделочные материалы подчеркивают красоту и изысканность текстуры натуральной древесины.<br />
 За годы своего развития предприятие превратилось в современное технологичное производство с новыми технологиями, которые позволяют выпускать изделия высокого художественного и качественного уровня.<br />
 Характерной особенностью нашей мебели является практичность, надежность и соответствие современным требованиям по функциональным особенностям и эстетике.<br />
@@ -133,7 +133,7 @@ function max_min(object,min,max)
 		<p><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
 style="display:inline-block;width:970px;height:90px"
-data-ad-client="ca-pub-3379969116950199"
+data-ad-client="ca-pub-3379969116/950199"
 data-ad-slot="4882915287">
 </ins>
 <script>
@@ -516,5 +516,7 @@ function icoordinats(citys)
 </div></form>
 </body>
 </html>
+www.google.com
+	https://ru.stackoverflow.com
 <!DOCTYPE HTML>
 
