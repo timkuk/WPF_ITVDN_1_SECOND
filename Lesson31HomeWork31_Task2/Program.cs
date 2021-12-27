@@ -33,10 +33,10 @@ namespace Lesson31HomeWork31_Task2
                         writer.Close();
                     }
                 }
-                //HttpResponseMessage response = await client.GetAsync("https://mebel.by/allproducts.php?firms=8/");
-                //response.EnsureSuccessStatusCode();
-                //string responseBody = await response.Content.ReadAsStringAsync();
-                //Console.WriteLine(responseBody);
+                HttpResponseMessage response = await client.GetAsync("https://mebel.by/allproducts.php?firms=8/");
+                response.EnsureSuccessStatusCode();
+                string responseBody = await response.Content.ReadAsStringAsync();
+                Console.WriteLine(responseBody);
             }
             catch (HttpRequestException e)
             {
