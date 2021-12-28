@@ -7,6 +7,40 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="ID" HorizontalAlignment="Left" Margin="193,90,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="0.5,0.5" Height="28">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.377"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="192,139,0,0" Width="92" RenderTransformOrigin="0.595,3.959" Height="28" VerticalAlignment="Top">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.377"/>
+                    <TranslateTransform X="0.638" Y="-0.059"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="192,186,0,206" Width="92" RenderTransformOrigin="0.595,3.959">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.377"/>
+                    <TranslateTransform X="0.638" Y="-0.059"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox Height="23" Name ="tb1"  Margin="318,91,355.6,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox Height="27" Name ="tb2"   Margin="318,143,355.6,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox Margin="318,191,355.6,206" Name ="tb3"  TextWrapping="Wrap" Text="TextBox"/>
+        <Button Content="SAVE" HorizontalAlignment="Left" Margin="223,0,0,142" VerticalAlignment="Bottom" Width="75" Click="Button_Click_1"/>
+        <Button Content="RECET" Margin="357,0,361.6,143" VerticalAlignment="Bottom" Click="Button_Click"/>
     </Grid>
 </Window>
