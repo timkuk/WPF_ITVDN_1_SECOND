@@ -9,7 +9,7 @@
     <Grid>
         <Button Content="SAVE" Margin="350,0,368.6,95" VerticalAlignment="Bottom" Click="Button_Click"/>
         <Label Content="ID" HorizontalAlignment="Left" Margin="229,109,0,0" VerticalAlignment="Top" Width="59"/>
-        <TextBox Height="23" Name ="tb1"  Margin="357,113,316.6,0" TextWrapping="Wrap"  VerticalAlignment="Top" TextChanged="tb1_TextChanged"/>
+        <TextBox Height="23" Name ="tb1"  Margin="357,113,316.6,0" TextWrapping="Wrap"  VerticalAlignment="Top" />
         <Label Content="Login" HorizontalAlignment="Left" Margin="220,165,0,0" VerticalAlignment="Top" Height="35" Width="49"/>
         <TextBox Height="23"  Name ="tb2"  Margin="357,169,316.6,0" TextWrapping="Wrap"  VerticalAlignment="Top"/>
         <TextBox Height="23"  Name ="tb3"  Margin="358,0,315.6,179" TextWrapping="Wrap"  VerticalAlignment="Bottom"/>

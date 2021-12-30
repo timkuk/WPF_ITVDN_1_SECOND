@@ -6,7 +6,7 @@ namespace Lesson32HomeWork32_Task5
 {
     public class SaveXML
     {
-        public static void SaveingXML(object obj, string path)
+        public static void SaveingXML(Information obj, string path)
         {
             XmlSerializer xmlSerializer = new XmlSerializer(obj.GetType());
             StreamWriter text = new StreamWriter(path);

@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Lesson32HomeWork32_Task5
 {
-    class Information
+    public class Information
     {
         private string ID;
         private string Login;

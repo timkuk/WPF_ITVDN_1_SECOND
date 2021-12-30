@@ -16,7 +16,7 @@ namespace Lesson32HomeWork32_Task5
             information.IDField = tb1.Text;
             information.LoginField = tb2.Text;
             information.PasswordField = tb3.Text;
-            SaveXML.SaveingXML(information, "information.xml");
+            SaveXML.SaveingXML(information, @"E:\ITVDN\03_C# Essential\WPF_ITVDN_1-master\Lesson32HomeWork32_Task5\information.xml");
         }
     }
 }
