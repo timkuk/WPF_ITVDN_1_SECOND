@@ -253,6 +253,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson34HomeWork34_Task1", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson34HomeWork34_Task2", "Lesson34HomeWork34_Task2\Lesson34HomeWork34_Task2.csproj", "{4775D581-335D-4F71-ADA5-A9A12A687025}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflector", "..\..\04_C# Professional\06 - Рефлексия\004 - Reflector\Reflector\Reflector.csproj", "{AA108D29-C065-4F3D-BDA9-BD3EFF66829C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -759,6 +761,10 @@ Global
 		{4775D581-335D-4F71-ADA5-A9A12A687025}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4775D581-335D-4F71-ADA5-A9A12A687025}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4775D581-335D-4F71-ADA5-A9A12A687025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA108D29-C065-4F3D-BDA9-BD3EFF66829C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA108D29-C065-4F3D-BDA9-BD3EFF66829C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA108D29-C065-4F3D-BDA9-BD3EFF66829C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA108D29-C065-4F3D-BDA9-BD3EFF66829C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

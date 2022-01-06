@@ -6,7 +6,20 @@ namespace Lesson33HomeWork33_Task2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Введите температуру в Цельсиях");
+            double temperature = double.Parse(Console.ReadLine());
+            Console.WriteLine("Выберите в какую величину конвертировать температуру 1-Кельвины 2-Форенгейты");
+            int reult = int.Parse(Console.ReadLine());
+            if (reult == 1)
+            {
+                ConvertationTemperature convertationTemperature = new Kelvins(temperature);
+                convertationTemperature.ConvertTemperature();
+            }
+            else
+            {
+                ConvertationTemperature convertationTemperature = new Forengeits(temperature);
+                convertationTemperature.ConvertTemperature();
+            }
         }
     }
 }
