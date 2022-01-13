@@ -1,7 +1,8 @@
 ﻿using System;
 namespace Lesson33HomeWork33_Task2
 {
-    public class Kelvins : ConvertationTemperature
+    
+    public class Kelvins : ConvertationTemperature 
     {
         public Kelvins() { }
         public Kelvins(double Temperature) : base(Temperature)
