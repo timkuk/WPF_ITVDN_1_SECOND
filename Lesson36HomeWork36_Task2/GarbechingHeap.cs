@@ -1,26 +1,17 @@
 ﻿using System;
-using System.Threading;
 //Реализуй класс который позволит выполнять мониторинг ресурсов, используемых программой
 //Используйте его в целях наблюдения за работой программы, а именно: пользователь может указать приемлемые уровни потребления 
 //ресурсов памяти, а методы класса позволят выдать предупреждение, когда количество используемых ресурсов приблизиться к max
 namespace Lesson36HomeWork36_Task2
 {
-    public class Program
+    public class GarbechingHeap
     {
-        static void Main(string[] args)
+        public void MethodGarbechingHeap()
         {
-            Console.WriteLine("Input normal level using total memory in  program");
-            int input = int.Parse(Console.ReadLine());
-            Monitoring @object = new Monitoring();
-            GarbechingHeap garbechingHeap = new GarbechingHeap();
-            new Thread(garbechingHeap.MethodGarbechingHeap).Start();
-            while(true)
+            GarbechingHeap[] garbechingHeaps = new GarbechingHeap[1000];
+            for(int i = 0; i < 50; i++)
             {
-                bool answer = @object.MethodMonitoring(input);
-                if (answer == false)
-                {
-                    break;
-                }
+                garbechingHeaps[i] = new GarbechingHeap();
             }
         }
     }

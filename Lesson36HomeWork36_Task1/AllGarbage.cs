@@ -3,22 +3,20 @@
 //и реализуйте для этого класса,формализованный шаблон очистки
 namespace Lesson36HomeWork36_Task1
 {
-    public class Garbage
+    public class AllGarbage
     {
+        byte[] garbageArray = new byte[1024 * 100];
         /// <summary>
-        /// Creating big array 
-        /// </summary>       
-        byte[] garbageArray = new byte[1024];
-        public Garbage()
-        {
-            Console.WriteLine($"Constructor working {this.GetHashCode()}");
-        }
-        /// <summary>
-        /// Realization Distructor
+        /// Method inputing new objects to array
         /// </summary>
-        ~Garbage()
+        public void InputOnArray()
         {
-            Console.WriteLine($"Distructor working {this.GetHashCode()}");
-        } 
+            AllGarbage[] allGarbages = new AllGarbage[1000];
+            for (int i = 0; i < allGarbages.Length; i++)
+            {
+                 allGarbages[i] = new AllGarbage();
+                 //AllGarbage all = new AllGarbage();
+            }
+        }
     }
 }
