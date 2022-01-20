@@ -6,7 +6,10 @@ namespace Lesson37HomeWork37_Task1
     {
         static void Main(string[] args)
         {
-
+            Programmist programmist = new Computer();
+            programmist.Coding();
+            Programmist computer = new Programmist();
+            computer.Coding();
         }
     }
 }
