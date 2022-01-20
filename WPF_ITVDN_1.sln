@@ -265,6 +265,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson36HomeWork36_Task1", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson36HomeWork36_Task2", "Lesson36HomeWork36_Task2\Lesson36HomeWork36_Task2.csproj", "{36A112D1-CE55-47F9-9345-B3968A3AEFFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson37HomeWork37_Task1", "Lesson37HomeWork37_Task1\Lesson37HomeWork37_Task1.csproj", "{7431A26A-32FD-4CBD-A232-0B78907ACED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson37HomeWork37_Task2", "Lesson37HomeWork37_Task2\Lesson37HomeWork37_Task2.csproj", "{7FF14D99-8F7F-4008-BE7F-99EC1399F3B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -795,6 +799,14 @@ Global
 		{36A112D1-CE55-47F9-9345-B3968A3AEFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36A112D1-CE55-47F9-9345-B3968A3AEFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36A112D1-CE55-47F9-9345-B3968A3AEFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7431A26A-32FD-4CBD-A232-0B78907ACED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7431A26A-32FD-4CBD-A232-0B78907ACED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7431A26A-32FD-4CBD-A232-0B78907ACED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7431A26A-32FD-4CBD-A232-0B78907ACED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF14D99-8F7F-4008-BE7F-99EC1399F3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF14D99-8F7F-4008-BE7F-99EC1399F3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF14D99-8F7F-4008-BE7F-99EC1399F3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF14D99-8F7F-4008-BE7F-99EC1399F3B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

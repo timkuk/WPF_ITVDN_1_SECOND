@@ -3,11 +3,16 @@
 //и реализуйте для этого класса,формализованный шаблон очистки
 namespace Lesson36HomeWork36_Task1
 {
-    public class Program
+    public class Garbage
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Realization Distructor
+        /// </summary>
+        ~Garbage()
         {
-
+            Console.WriteLine("Distructor working");
         }
+        Array array = new int[10000];
+
     }
 }
