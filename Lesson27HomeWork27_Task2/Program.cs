@@ -11,7 +11,7 @@ namespace Lesson27HomeWork27_Task2
         static void Main(string[] args)
         {
             MyClass myClass = new MyClass();
-            Console.WriteLine(myClass.GetHashCode());
+            //Console.WriteLine(myClass);
             Console.WriteLine("Введите количество элементов для словаря");
             int length = int.Parse(Console.ReadLine());
             Dictionary<string, string> dictionary = new Dictionary<string, string>(length);
